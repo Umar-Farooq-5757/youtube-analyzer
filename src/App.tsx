@@ -9,6 +9,10 @@ const App = () => {
 
   const handleAnalyze = async () => {
     const { type, id } = parseYouTubeUrl(inputValue);
+    if (!id) {
+      console.error("Invalid YouTube URL");
+      return;
+    }
     try {
       let result: any;
       if (type === "video") {
