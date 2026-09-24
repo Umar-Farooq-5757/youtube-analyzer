@@ -17,20 +17,20 @@ const Sidebar: React.FC = () => {
             <div
               key={item}
               onClick={() => setSelected(item)}
-              className={`flex items-center gap-3 font-semibold px-3 py-2.5 cursor-pointer rounded-sm hover:bg-[#1B1826] ${
+              className={`flex items-center gap-3 font-semibold px-3 py-2.5 cursor-pointer rounded-sm hover:bg-[#1B1826] border ${
                 selected === item
-                  ? "text-[#F7E9A8] bg-[#1B1826] border border-[#333235]"
-                  : ""
+                  ? "text-[#F7E9A8] bg-[#1B1826] border-[#333235]"
+                  : "border-[#13111A]"
               }`}>
               {selected === item ? (
-                <BsDiamondFill className="size-3" />
+                <BsDiamondFill className="size-2" />
               ) : (
-                <BsDiamond className="size-3" />
+                <BsDiamond className="size-2" />
               )}
               <span className="capitalize">{item}</span>
             </div>
           );
-        })}
+        })} 
       </div>
     </div>
   );

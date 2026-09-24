@@ -24,6 +24,8 @@ dist-ssr
 *.sln
 *.sw?
 
-brainstorm.md
 .vercel
 .env*
+
+structure.json
+brainstorm.md

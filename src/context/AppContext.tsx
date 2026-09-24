@@ -29,8 +29,8 @@ export const AppContextProvider: React.FC<{ children: ReactNode }> = ({
     try {
       let result: any;
       if (type === "video") {
+        setSelected("video");
         result = await getVideoDetails(id);
-        console.log({ type, details: result.items[0] });
         setData({ type, details: result.items[0] });
       }
     } catch (err: any) {
