@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+.text-shadow{
+    text-shadow: 3px 3px 1px #6F6387;
+}

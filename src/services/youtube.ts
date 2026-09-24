@@ -34,3 +34,52 @@ export const getVideoDetails = async <T = any>(
     id: ids,
   });
 };
+
+export const getPlaylistDetails = async <T = any>(
+  playlistId: string
+): Promise<T> => {
+  return fetchFromYouTube<T>("playlists", {
+    part: "snippet,contentDetails",
+    id: playlistId,
+  });
+};
+
+export const getPlaylistVideos = async <T = any>(
+  playlistId: string,
+  pageToken: string = ""
+): Promise<T> => {
+  const params: Record<string, string> = {
+    part: "snippet,contentDetails",
+    playlistId,
+    maxResults: "50",
+  };
+  if (pageToken) params.pageToken = pageToken;
+  return fetchFromYouTube<T>("playlistItems", params);
+};
+
+export const getChannelDetails = async <T = any>(
+  channelOrHandle: string
+): Promise<T> => {
+  const isHandle = channelOrHandle.startsWith("@");
+  const params: Record<string, string> = {
+    part: "snippet,statistics,contentDetails",
+  };
+
+  if (isHandle) {
+    params.forHandle = channelOrHandle;
+  } else {
+    params.id = channelOrHandle;
+  }
+
+  return fetchFromYouTube<T>("channels", params);
+};
+
+export const getChannelUploads = async <T = any>(
+  uploadsPlaylistId: string
+): Promise<T> => {
+  return fetchFromYouTube<T>("playlistItems", {
+    part: "snippet,contentDetails",
+    playlistId: uploadsPlaylistId,
+    maxResults: "50",
+  });
+};
