@@ -2,10 +2,41 @@ import type React from "react";
 import { PiStarFourFill } from "react-icons/pi";
 import { useAppContext } from "../context/AppContext";
 import { useState } from "react";
+import StatCard from "./StatCard";
+import moment from "moment";
 
 const Video: React.FC = () => {
   const { handleAnalyze, data } = useAppContext();
   const [inputValue, setInputValue] = useState<string>("");
+
+  const differentSpeeds = [
+    { label: "1.0x (Normal)", speed: 1.0 },
+    { label: "1.25x Speed", speed: 1.25 },
+    { label: "1.5x Speed", speed: 1.5 },
+    { label: "2.0x Speed", speed: 2.0 },
+  ];
+
+  const getDurationForDifferentSpeeds = (
+    isoDuration: string,
+    speed: number,
+  ): string => {
+    if (!isoDuration) return "00:00";
+
+    const totalSeconds = moment.duration(isoDuration).asSeconds();
+    const adjustedSeconds = Math.round(totalSeconds / speed);
+
+    const dur = moment.duration(adjustedSeconds, "seconds");
+    const hours = Math.floor(dur.asHours());
+    const minutes = dur.minutes();
+    const seconds = dur.seconds();
+
+    const pad = (num: number) => String(num).padStart(2, "0");
+
+    if (hours > 0) {
+      return `${hours}:${pad(minutes)}:${pad(seconds)}`;
+    }
+    return `${pad(minutes)}:${pad(seconds)}`;
+  };
 
   return (
     <div className="w-full">
@@ -26,22 +57,133 @@ const Video: React.FC = () => {
             placeholder="Paste the URL of a YouTube Video..."
           />
           <button
-            onClick={() => handleAnalyze(inputValue)}
+            onClick={() => !!inputValue && handleAnalyze(inputValue)}
             className="bg-[#F7E9A8] text-black font-bold rounded-sm px-7 text-lg">
             Analyze
           </button>
         </div>
       </div>
-      <div className="bg-[#13111A] rounded-sm border-2 border-[#393642] my-7 py-7 px-6 w-full">
+      <div className="bg-[#13111A] rounded-sm border-2 border-[#393642] my-7 py-7 px-6 w-full min-h-[50vh] flex flex-col">
         <div className="flex items-center gap-2">
           <PiStarFourFill className="text-[#a89bbd] size-3" />
           <p className="uppercase text-[#a89bbd] font-semibold font-sans text-sm">
             Analysis
           </p>
         </div>
+        {!data && (
+          <div className="flex-1 flex items-center justify-center gap-2 flex-col opacity-40">
+            <p>No Data Available.</p>
+            <p>Enter a YouTube Video URL to start analyzing.</p>
+          </div>
+        )}
         {data && (
-          <div>
-            <p>{data.details.snippet.title}</p>
+          <div className="my-2">
+            <p className="text-lg font-semibold">
+              {data.details.snippet.title}
+            </p>
+            {/* Stat cards */}
+            <div className="my-4 grid grid-cols-3 gap-3">
+              <StatCard
+                title={"Views"}
+                value={data.details.statistics.viewCount}
+              />
+              <StatCard
+                title={"Likes"}
+                value={data.details.statistics.likeCount}
+              />
+              <StatCard
+                title={"Comments"}
+                value={data.details.statistics.commentCount}
+              />
+            </div>
+            <div className="border-2 border-[#29272B] rounded-md px-3 py-5 overflow-hidden shadow-[3px_3px_0px_0px_#29272B]">
+              <iframe
+                src={`https://www.youtube.com/embed/${data.details.id}`}
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                className="w-full h-100 rounded-md"
+              />
+            </div>
+            {/* Stat cards */}
+            <div className="my-4 grid grid-cols-3 gap-3">
+              <StatCard
+                title={"Duration"}
+                value={getDurationForDifferentSpeeds(
+                  data.details.contentDetails.duration,
+                  1,
+                )}
+              />
+              <StatCard
+                title={"Published on"}
+                value={moment(data.details.snippet.publishedAt).format(
+                  "DD MM YYYY",
+                )}
+                extra={moment(data.details.snippet.publishedAt).fromNow()}
+              />
+              <div className="border-2 border-[#29272B] rounded-md py-5 px-5 space-y-2 w-full shadow-[3px_3px_0px_0px_#29272B]">
+                <p className="text-[#a89bbd] uppercase font-semibold text-sm">
+                  Channel
+                </p>
+                <a
+                  href={`https://www.youtube.com/channel/${data.details.snippet.channelId}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[15px] font-semibold text-blue-500 underline cursor-pointer">
+                  {data.details.snippet.channelTitle}
+                </a>
+              </div>
+            </div>
+            {/* Video Durations at Different Speeds */}
+            <div className="border-2 border-[#29272B] rounded-md py-5 px-5 shadow-[3px_3px_0px_0px_#29272B] my-4">
+              <p className="text-[#a89bbd] uppercase font-semibold text-sm">
+                Watch Time at Different Speeds
+              </p>
+              <div className="h-0.5 w-full bg-[#29282b] my-3"></div>
+              <div className="grid grid-cols-4 gap-3">
+                {differentSpeeds.map(({ label, speed }) => (
+                  <div
+                    key={speed}
+                    className="border-2 border-[#393642] p-3 rounded-md text-center shadow-[3px_3px_0px_0px_#29272B]">
+                    <span className="text-[#a89bbd] text-xs font-semibold block uppercase">
+                      {label}
+                    </span>
+                    <span className="text-[#F7E9A8] font-bold text-lg mt-1 small-text-shadow">
+                      {getDurationForDifferentSpeeds(
+                        data.details.contentDetails.duration,
+                        speed,
+                      )}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
+            {/* Description */}
+            <div className="border-2 border-[#29272B] rounded-md py-5 px-5 shadow-[3px_3px_0px_0px_#29272B] my-4">
+              <p className="text-[#a89bbd] uppercase font-semibold text-sm">
+                Description
+              </p>
+              <div className="h-0.5 w-full bg-[#29282b] my-3"></div>
+              <p className="whitespace-pre-line">
+                {data.details.snippet.description}
+              </p>
+            </div>
+            {/* Tags */}
+            <div className="border-2 border-[#29272B] rounded-md py-5 px-5 shadow-[3px_3px_0px_0px_#29272B] my-4">
+              <p className="text-[#a89bbd] uppercase font-semibold text-sm">
+                Tags
+              </p>
+              <div className="h-0.5 w-full bg-[#29282b] my-3"></div>
+              <div className="flex flex-wrap space-x-3 space-y-1">
+                {data.details.snippet.tags.map((tag: string, idx: number) => (
+                  <div
+                    key={idx}
+                    className="bg-[#101014] text-sm border-2 border-[#29272B] rounded-sm px-2 py-0.5">
+                    {tag}
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         )}
       </div>
@@ -50,3 +192,5 @@ const Video: React.FC = () => {
 };
 
 export default Video;
+
+// https://youtu.be/DgyaAKMsDBk?si=DzJdHol6scXnOAiV
