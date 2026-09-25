@@ -86,3 +86,16 @@ export const getChannelPlaylists = async <T = any>(
     maxResults: "50",
   });
 };
+
+export const getChannelUploads = async <T = any>(
+  uploadsPlaylistId: string,
+  pageToken: string = "",
+): Promise<T> => {
+  const params: Record<string, string> = {
+    part: "snippet,contentDetails,status",
+    playlistId: uploadsPlaylistId,
+    maxResults: "50",
+  };
+  if (pageToken) params.pageToken = pageToken;
+  return fetchFromYouTube<T>("playlistItems", params);
+};

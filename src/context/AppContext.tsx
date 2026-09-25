@@ -3,6 +3,7 @@ import { parseYouTubeUrl } from "../utils/youtube";
 import {
   getChannelDetails,
   getChannelPlaylists,
+  getChannelUploads,
   getPlaylistDetails,
   getPlaylistVideos,
   getVideoDetails,
@@ -29,7 +30,7 @@ export const AppContextProvider: React.FC<{ children: ReactNode }> = ({
   children,
 }) => {
   const [developer] = useState("umarfarooq");
-  const [selected, setSelected] = useState<string>("channel");
+  const [selected, setSelected] = useState<string>("playlist");
   const [data, setData] = useState<any>(null);
 
   const handleAnalyze = async (youtubeUrl: string) => {
@@ -42,7 +43,6 @@ export const AppContextProvider: React.FC<{ children: ReactNode }> = ({
       if (type === "video") {
         setSelected("video");
         const videoResult = await getVideoDetails(id);
-        console.log({ type, details: videoResult.items[0] });
         setData({
           type: "video",
           details: videoResult.items[0],
@@ -55,14 +55,16 @@ export const AppContextProvider: React.FC<{ children: ReactNode }> = ({
           getPlaylistVideos(id),
         ]);
         console.log({
-          type,
+          type: "playlist",
           details: playlistResult.items[0],
           items: playlistItemsResult.items || [],
+          nextPageToken: playlistItemsResult.nextPageToken || null,
         });
         setData({
           type: "playlist",
           details: playlistResult.items[0],
           items: playlistItemsResult.items || [],
+          nextPageToken: playlistItemsResult.nextPageToken || null,
         });
       } else if (type === "channel") {
         setSelected("channel");
@@ -74,27 +76,28 @@ export const AppContextProvider: React.FC<{ children: ReactNode }> = ({
           throw new Error("Channel not found");
         }
 
-        const playlistsData = await getChannelPlaylists(channel.id);
+        const uploadsPlaylistId =
+          channel.contentDetails?.relatedPlaylists?.uploads;
 
+        const [playlistsData, uploadsData] = await Promise.all([
+          getChannelPlaylists(channel.id),
+          uploadsPlaylistId
+            ? getChannelUploads(uploadsPlaylistId)
+            : Promise.resolve({ items: [], nextPageToken: null }),
+        ]);
         const keywordsRaw = channel.brandingSettings?.channel?.keywords || "";
         const channelKeywords = keywordsRaw
           ? keywordsRaw
               .match(/(?:[^\s"]+|"[^"]*")+/g)
               ?.map((k: string) => k.replace(/"/g, "")) || []
           : [];
-        console.log({
-          type: "channel",
-          details: channel,
-          playlists: playlistsData.items || [],
-          totalPlaylists:
-            playlistsData.pageInfo?.totalResults ||
-            playlistsData.items?.length ||
-            0,
-          keywords: channelKeywords,
-        });
+
         setData({
           type: "channel",
           details: channel,
+          videos: uploadsData.items || [],
+          videosNextPageToken: uploadsData.nextPageToken || null,
+          uploadsPlaylistId: uploadsPlaylistId || null,
           playlists: playlistsData.items || [],
           totalPlaylists:
             playlistsData.pageInfo?.totalResults ||

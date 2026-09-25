@@ -26,5 +26,6 @@ Analyze YouTube videos, channels and playlists.
     * Total views
     * Total videos
     * Created on
-    * Country
     * Total playlists
+    * Country
+  * Listed playlists
