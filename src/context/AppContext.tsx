@@ -9,6 +9,10 @@ interface AppContextType {
   data: any;
   setData: (value: any) => void;
   handleAnalyze: (value: string) => void;
+  beautifyBigNumber: (
+    countStr: string | number,
+    displayNotation: "compact" | "engineering" | "scientific" | "standard",
+  ) => string;
 }
 
 const AppContext = createContext<AppContextType | undefined>(undefined);
@@ -38,6 +42,19 @@ export const AppContextProvider: React.FC<{ children: ReactNode }> = ({
     }
   };
 
+  const beautifyBigNumber = (
+    countStr: string | number,
+    displayNotation: "compact" | "engineering" | "scientific" | "standard",
+  ): string => {
+    const num = typeof countStr === "string" ? Number(countStr) : countStr;
+    if (isNaN(num)) return "0";
+
+    return new Intl.NumberFormat("en-US", {
+      notation: displayNotation,
+      maximumFractionDigits: 1,
+    }).format(num);
+  };
+
   return (
     <AppContext.Provider
       value={{
@@ -47,6 +64,7 @@ export const AppContextProvider: React.FC<{ children: ReactNode }> = ({
         data,
         setData,
         handleAnalyze,
+        beautifyBigNumber,
       }}>
       {children}
     </AppContext.Provider>

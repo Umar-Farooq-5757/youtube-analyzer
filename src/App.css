@@ -3,6 +3,36 @@
 .text-shadow {
   text-shadow: 3px 3px 1px #6f6387;
 }
+
 .small-text-shadow {
   text-shadow: 2px 2px 1px #6f6387;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #76707e;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #29272B;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #29272B;
+}
+
+.no-scroll-wheel {
+  scrollbar-width: none;
+}
+
+.no-scroll-wheel::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }

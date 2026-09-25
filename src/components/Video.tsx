@@ -6,7 +6,7 @@ import StatCard from "./StatCard";
 import moment from "moment";
 
 const Video: React.FC = () => {
-  const { handleAnalyze, data } = useAppContext();
+  const { handleAnalyze, beautifyBigNumber, data } = useAppContext();
   const [inputValue, setInputValue] = useState<string>("");
 
   const differentSpeeds = [
@@ -58,7 +58,7 @@ const Video: React.FC = () => {
           />
           <button
             onClick={() => !!inputValue && handleAnalyze(inputValue)}
-            className="bg-[#F7E9A8] text-black font-bold rounded-sm px-7 text-lg">
+            className="bg-[#F7E9A8] text-black font-bold rounded-sm px-7 text-lg hover:opacity-70">
             Analyze
           </button>
         </div>
@@ -85,15 +85,27 @@ const Video: React.FC = () => {
             <div className="my-4 grid grid-cols-3 gap-3">
               <StatCard
                 title={"Views"}
-                value={data.details.statistics.viewCount}
+                value={beautifyBigNumber(
+                  data.details.statistics.viewCount,
+                  "compact",
+                )}
+                tooltipValue={data.details.statistics.viewCount}
               />
               <StatCard
                 title={"Likes"}
-                value={data.details.statistics.likeCount}
+                value={beautifyBigNumber(
+                  data.details.statistics.likeCount,
+                  "compact",
+                )}
+                tooltipValue={data.details.statistics.likeCount}
               />
               <StatCard
                 title={"Comments"}
-                value={data.details.statistics.commentCount}
+                value={beautifyBigNumber(
+                  data.details.statistics.commentCount,
+                  "compact",
+                )}
+                tooltipValue={data.details.statistics.commentCount}
               />
             </div>
             <div className="border-2 border-[#29272B] rounded-md px-3 py-5 overflow-hidden shadow-[3px_3px_0px_0px_#29272B]">
@@ -158,6 +170,20 @@ const Video: React.FC = () => {
                 ))}
               </div>
             </div>
+            {/* Thumbnail */}
+            <div className="border-2 border-[#29272B] rounded-md py-5 px-5 shadow-[3px_3px_0px_0px_#29272B] my-4">
+              <p className="text-[#a89bbd] uppercase font-semibold text-sm">
+                Thumbnail
+              </p>
+              <div className="h-0.5 w-full bg-[#29282b] my-3"></div>
+              <div className="flex flex-wrap space-x-3 space-y-1">
+                <img
+                  className="rounded-md mx-auto"
+                  src={data.details.snippet.thumbnails.high.url}
+                  alt=""
+                />
+              </div>
+            </div>
             {/* Description */}
             <div className="border-2 border-[#29272B] rounded-md py-5 px-5 shadow-[3px_3px_0px_0px_#29272B] my-4">
               <p className="text-[#a89bbd] uppercase font-semibold text-sm">
@@ -169,21 +195,25 @@ const Video: React.FC = () => {
               </p>
             </div>
             {/* Tags */}
-            <div className="border-2 border-[#29272B] rounded-md py-5 px-5 shadow-[3px_3px_0px_0px_#29272B] my-4">
-              <p className="text-[#a89bbd] uppercase font-semibold text-sm">
-                Tags
-              </p>
-              <div className="h-0.5 w-full bg-[#29282b] my-3"></div>
-              <div className="flex flex-wrap space-x-3 space-y-1">
-                {data.details.snippet.tags.map((tag: string, idx: number) => (
-                  <div
-                    key={idx}
-                    className="bg-[#101014] text-sm border-2 border-[#29272B] rounded-sm px-2 py-0.5">
-                    {tag}
-                  </div>
-                ))}
+            {data.details.snippet.tags && (
+              <div className="border-2 border-[#29272B] rounded-md py-5 px-5 shadow-[3px_3px_0px_0px_#29272B] my-4">
+                <p className="text-[#a89bbd] uppercase font-semibold text-sm">
+                  Tags
+                </p>
+                <div className="h-0.5 w-full bg-[#29282b] my-3"></div>
+                <div className="flex flex-wrap space-x-3 space-y-1">
+                  {data.details.snippet.tags?.map(
+                    (tag: string, idx: number) => (
+                      <div
+                        key={idx}
+                        className="bg-[#101014] text-sm border-2 border-[#29272B] rounded-sm px-2 py-0.5">
+                        {tag}
+                      </div>
+                    ),
+                  )}
+                </div>
               </div>
-            </div>
+            )}
           </div>
         )}
       </div>
