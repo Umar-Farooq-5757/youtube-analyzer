@@ -1,0 +1,1677 @@
+{
+  "type": "playlist",
+  "details": {
+    "kind": "youtube#playlist",
+    "etag": "1iEsFvWMzF5S7WXkjznRgJt5EAw",
+    "id": "PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe",
+    "snippet": {
+      "publishedAt": "2017-01-02T09:11:41.869806Z",
+      "channelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw",
+      "title": "QURAN JUST URDU TRANSLATION WITH TEXT HD(FATEH MUHAMMAD JALANDRI)",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/b48Zq-jC9s8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/b48Zq-jC9s8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/b48Zq-jC9s8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/b48Zq-jC9s8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/b48Zq-jC9s8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "True Islam",
+      "localized": {
+        "title": "QURAN JUST URDU TRANSLATION WITH TEXT HD(FATEH MUHAMMAD JALANDRI)",
+        "description": ""
+      }
+    },
+    "status": {
+      "privacyStatus": "public"
+    },
+    "contentDetails": {
+      "itemCount": 30
+    },
+    "player": {
+      "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    }
+  },
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "T_NOAoAATVPojq2AEqMlW8qzuds",
+      "id": "UExqTWRsdm93eHJfMElaMTN1MWZFWk03WEV5Y1l2SUZUZS44Mjc5REFBRUE2MTdFRDU0",
+      "snippet": {
+        "publishedAt": "2017-04-21T19:00:39Z",
+        "channelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw",
+        "title": "QURAN PARA 1 JUST/ONLY URDU TRANSLATION WITH TEXT HD FATEH MUHAMMAD JALANDRI",
+        "description": "THIS IS QURAN JUST ONLY IN URDU TRANSLATION WITH TEXT HD FATEH MUHAMMAD JALANDRI,\nTHIS QURAN IS ONLY TRANSLATION WITHOUT ARABIC\nTHIS IS THE TRANSLATION OF FATEH MUHAMMAD JALANDRI",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/b48Zq-jC9s8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/b48Zq-jC9s8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/b48Zq-jC9s8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/b48Zq-jC9s8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/b48Zq-jC9s8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "True Islam",
+        "playlistId": "PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "b48Zq-jC9s8"
+        },
+        "videoOwnerChannelTitle": "True Islam",
+        "videoOwnerChannelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw"
+      },
+      "contentDetails": {
+        "videoId": "b48Zq-jC9s8",
+        "videoPublishedAt": "2017-04-21T18:06:34Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "3giGeFn9RrbHCZ6pU9nscDIwvaA",
+      "id": "UExqTWRsdm93eHJfMElaMTN1MWZFWk03WEV5Y1l2SUZUZS5DMkU4NTY1QUFGQTYwMDE3",
+      "snippet": {
+        "publishedAt": "2017-04-21T19:00:39Z",
+        "channelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw",
+        "title": "QURAN PARA 2 JUST/ONLY URDU TRANSLATION WITH TEXT HD FATEH MUHAMMAD JALANDRI",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/unyZnR_jtyo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/unyZnR_jtyo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/unyZnR_jtyo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/unyZnR_jtyo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/unyZnR_jtyo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "True Islam",
+        "playlistId": "PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe",
+        "position": 1,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "unyZnR_jtyo"
+        },
+        "videoOwnerChannelTitle": "True Islam",
+        "videoOwnerChannelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw"
+      },
+      "contentDetails": {
+        "videoId": "unyZnR_jtyo",
+        "videoPublishedAt": "2017-04-21T18:06:34Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "2trpxACQHgFuwoKS6aMTxHOhWAs",
+      "id": "UExqTWRsdm93eHJfMElaMTN1MWZFWk03WEV5Y1l2SUZUZS4yQUE2Q0JEMTk4NTM3RTZC",
+      "snippet": {
+        "publishedAt": "2017-04-21T19:00:39Z",
+        "channelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw",
+        "title": "QURAN PARA 3 JUST URDU/ONLY TRANSLATION WITH TEXT HD FATEH MUHAMMAD JALANDRI",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/J0517a7PRE8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/J0517a7PRE8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/J0517a7PRE8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/J0517a7PRE8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/J0517a7PRE8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "True Islam",
+        "playlistId": "PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe",
+        "position": 2,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "J0517a7PRE8"
+        },
+        "videoOwnerChannelTitle": "True Islam",
+        "videoOwnerChannelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw"
+      },
+      "contentDetails": {
+        "videoId": "J0517a7PRE8",
+        "videoPublishedAt": "2017-04-21T18:06:34Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "7jQXEQeiClKFjChDYbRWkiWgjoc",
+      "id": "UExqTWRsdm93eHJfMElaMTN1MWZFWk03WEV5Y1l2SUZUZS5DQ0MyQ0Y4Mzg0M0VGOEYw",
+      "snippet": {
+        "publishedAt": "2017-04-21T19:00:39Z",
+        "channelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw",
+        "title": "QURAN PARA 4 JUST/ONLY URDU TRANSLATION WITH TEXT HD FATEH MUHAMMAD JALANDRI",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qMaAinE0Lys/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qMaAinE0Lys/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qMaAinE0Lys/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/qMaAinE0Lys/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/qMaAinE0Lys/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "True Islam",
+        "playlistId": "PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe",
+        "position": 3,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "qMaAinE0Lys"
+        },
+        "videoOwnerChannelTitle": "True Islam",
+        "videoOwnerChannelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw"
+      },
+      "contentDetails": {
+        "videoId": "qMaAinE0Lys",
+        "videoPublishedAt": "2017-04-21T18:06:34Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "-ckfA8pgvn5ujcwYUyW-MkP2PXs",
+      "id": "UExqTWRsdm93eHJfMElaMTN1MWZFWk03WEV5Y1l2SUZUZS43MTI1NDIwOTMwQjIxMzNG",
+      "snippet": {
+        "publishedAt": "2017-04-21T19:00:39Z",
+        "channelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw",
+        "title": "QURAN PARA 5 JUST/ONLY URDU TRANSLATION WITH TEXT HD FATEH MUHAMMAD JALANDRI",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jcY4kEnlGO0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jcY4kEnlGO0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jcY4kEnlGO0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/jcY4kEnlGO0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/jcY4kEnlGO0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "True Islam",
+        "playlistId": "PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe",
+        "position": 4,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "jcY4kEnlGO0"
+        },
+        "videoOwnerChannelTitle": "True Islam",
+        "videoOwnerChannelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw"
+      },
+      "contentDetails": {
+        "videoId": "jcY4kEnlGO0",
+        "videoPublishedAt": "2017-04-21T18:06:34Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "2_DY2JeMnIzlqIOgSiv0T0xCfj0",
+      "id": "UExqTWRsdm93eHJfMElaMTN1MWZFWk03WEV5Y1l2SUZUZS5DNzE1RjZEMUZCMjA0RDBB",
+      "snippet": {
+        "publishedAt": "2017-04-21T19:00:39Z",
+        "channelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw",
+        "title": "QURAN PARA 6 JUST/ONLY URDU TRANSLATION WITH TEXT HD FATEH MUHAMMAD JALANDRI",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6ZXuFeVsVJ0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6ZXuFeVsVJ0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6ZXuFeVsVJ0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/6ZXuFeVsVJ0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/6ZXuFeVsVJ0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "True Islam",
+        "playlistId": "PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe",
+        "position": 5,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "6ZXuFeVsVJ0"
+        },
+        "videoOwnerChannelTitle": "True Islam",
+        "videoOwnerChannelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw"
+      },
+      "contentDetails": {
+        "videoId": "6ZXuFeVsVJ0",
+        "videoPublishedAt": "2017-04-21T18:06:34Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "_XWwcTL8QlM-rgcCZOqdVazUJ0I",
+      "id": "UExqTWRsdm93eHJfMElaMTN1MWZFWk03WEV5Y1l2SUZUZS45NzUwQkI1M0UxNThBMkU0",
+      "snippet": {
+        "publishedAt": "2017-04-21T19:00:39Z",
+        "channelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw",
+        "title": "QURAN PARA 7 JUST/ONLY URDU TRANSLATION WITH TEXT HD FATEH MUHAMMAD JALANDRI",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BN1lJ-ghkQg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BN1lJ-ghkQg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BN1lJ-ghkQg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/BN1lJ-ghkQg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/BN1lJ-ghkQg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "True Islam",
+        "playlistId": "PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe",
+        "position": 6,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "BN1lJ-ghkQg"
+        },
+        "videoOwnerChannelTitle": "True Islam",
+        "videoOwnerChannelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw"
+      },
+      "contentDetails": {
+        "videoId": "BN1lJ-ghkQg",
+        "videoPublishedAt": "2017-04-21T16:35:42Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "FhlNaAXoo6Ftzy5H0ruVdEan8OA",
+      "id": "UExqTWRsdm93eHJfMElaMTN1MWZFWk03WEV5Y1l2SUZUZS4zRjM0MkVCRTg0MkYyQTM0",
+      "snippet": {
+        "publishedAt": "2017-04-21T19:00:39Z",
+        "channelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw",
+        "title": "QURAN PARA 8 JUST/ONLY URDU TRANSLATION WITH TEXT HD FATEH MUHAMMAD JALANDRI",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nq-8yULGri4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nq-8yULGri4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nq-8yULGri4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/nq-8yULGri4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/nq-8yULGri4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "True Islam",
+        "playlistId": "PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe",
+        "position": 7,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "nq-8yULGri4"
+        },
+        "videoOwnerChannelTitle": "True Islam",
+        "videoOwnerChannelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw"
+      },
+      "contentDetails": {
+        "videoId": "nq-8yULGri4",
+        "videoPublishedAt": "2017-04-21T16:14:09Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "dv9bDpXM-HlejnDwEW2H7FWZ4ok",
+      "id": "UExqTWRsdm93eHJfMElaMTN1MWZFWk03WEV5Y1l2SUZUZS5GM0Q3M0MzMzY5NTJFNTdE",
+      "snippet": {
+        "publishedAt": "2017-04-17T15:14:14Z",
+        "channelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw",
+        "title": "QURAN PARA 9 JUST/ONLY URDU TRANSLATION WITH TEXT HD FATEH MUHAMMAD JALANDRI",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AKnhE3WEBXY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AKnhE3WEBXY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AKnhE3WEBXY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/AKnhE3WEBXY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/AKnhE3WEBXY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "True Islam",
+        "playlistId": "PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe",
+        "position": 8,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "AKnhE3WEBXY"
+        },
+        "videoOwnerChannelTitle": "True Islam",
+        "videoOwnerChannelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw"
+      },
+      "contentDetails": {
+        "videoId": "AKnhE3WEBXY",
+        "videoPublishedAt": "2017-04-17T15:13:33Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "YUkuya_xt_T0p_DZkZqp_FEiTGY",
+      "id": "UExqTWRsdm93eHJfMElaMTN1MWZFWk03WEV5Y1l2SUZUZS4yMDhBMkNBNjRDMjQxQTg1",
+      "snippet": {
+        "publishedAt": "2017-04-17T15:14:14Z",
+        "channelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw",
+        "title": "QURAN PARA 10 JUST/ONLY URDU TRANSLATION WITH TEXT HD FATEH MUHAMMAD JALANDRI",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EYyjnFC0DaY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EYyjnFC0DaY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EYyjnFC0DaY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/EYyjnFC0DaY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/EYyjnFC0DaY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "True Islam",
+        "playlistId": "PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe",
+        "position": 9,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "EYyjnFC0DaY"
+        },
+        "videoOwnerChannelTitle": "True Islam",
+        "videoOwnerChannelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw"
+      },
+      "contentDetails": {
+        "videoId": "EYyjnFC0DaY",
+        "videoPublishedAt": "2017-04-17T15:13:33Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "WO2syrMTtdzzg2WztYxZh6sLzJs",
+      "id": "UExqTWRsdm93eHJfMElaMTN1MWZFWk03WEV5Y1l2SUZUZS5ENDU4Q0M4RDExNzM1Mjcy",
+      "snippet": {
+        "publishedAt": "2017-04-13T13:45:57Z",
+        "channelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw",
+        "title": "QURAN PARA 11 JUST/ONLY URDU TRANSLATION WITH TEXT FATEH MUHAMMAD JALANDRI HD",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Xv9hlyggB0Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Xv9hlyggB0Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Xv9hlyggB0Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Xv9hlyggB0Q/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Xv9hlyggB0Q/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "True Islam",
+        "playlistId": "PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe",
+        "position": 10,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Xv9hlyggB0Q"
+        },
+        "videoOwnerChannelTitle": "True Islam",
+        "videoOwnerChannelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw"
+      },
+      "contentDetails": {
+        "videoId": "Xv9hlyggB0Q",
+        "videoPublishedAt": "2017-04-13T13:43:52Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "vJxBvq2mC-w85DMyPQJxIeMuQEw",
+      "id": "UExqTWRsdm93eHJfMElaMTN1MWZFWk03WEV5Y1l2SUZUZS45RTgxNDRBMzUwRjQ0MDhC",
+      "snippet": {
+        "publishedAt": "2017-04-12T14:22:13Z",
+        "channelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw",
+        "title": "QURAN PARA 12 JUST/ONLY URDU TRANSLATION WITH TEXT FATEH MUHAMMAD JALANDRI HD",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cCgchXVH0XY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cCgchXVH0XY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cCgchXVH0XY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/cCgchXVH0XY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/cCgchXVH0XY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "True Islam",
+        "playlistId": "PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe",
+        "position": 11,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "cCgchXVH0XY"
+        },
+        "videoOwnerChannelTitle": "True Islam",
+        "videoOwnerChannelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw"
+      },
+      "contentDetails": {
+        "videoId": "cCgchXVH0XY",
+        "videoPublishedAt": "2017-04-12T14:21:36Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "CaWaEbM-FamkdcCq-67q9QBQHqE",
+      "id": "UExqTWRsdm93eHJfMElaMTN1MWZFWk03WEV5Y1l2SUZUZS4yMUQyQTQzMjRDNzMyQTMy",
+      "snippet": {
+        "publishedAt": "2017-04-11T17:49:17Z",
+        "channelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw",
+        "title": "QURAN PARA 13 JUST/ONLY URDU TRANSLATION WITH TEXT FATEH MUHAMMAD JALANDRI HD",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iACR9rO-5YA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iACR9rO-5YA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iACR9rO-5YA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/iACR9rO-5YA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/iACR9rO-5YA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "True Islam",
+        "playlistId": "PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe",
+        "position": 12,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "iACR9rO-5YA"
+        },
+        "videoOwnerChannelTitle": "True Islam",
+        "videoOwnerChannelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw"
+      },
+      "contentDetails": {
+        "videoId": "iACR9rO-5YA",
+        "videoPublishedAt": "2017-04-11T17:47:43Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "snFaMulm5j3EnePohnOJuLdlXl0",
+      "id": "UExqTWRsdm93eHJfMElaMTN1MWZFWk03WEV5Y1l2SUZUZS41QTY1Q0UxMTVCODczNThE",
+      "snippet": {
+        "publishedAt": "2017-03-14T16:58:30Z",
+        "channelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw",
+        "title": "QURAN PARA 14 JUST/ONLY URDU TRANSLATION WITH TEXT HD (FATEH MUHAMMAD JALANDRI)",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/e3ybi2zlUKk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/e3ybi2zlUKk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/e3ybi2zlUKk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/e3ybi2zlUKk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/e3ybi2zlUKk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "True Islam",
+        "playlistId": "PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe",
+        "position": 13,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "e3ybi2zlUKk"
+        },
+        "videoOwnerChannelTitle": "True Islam",
+        "videoOwnerChannelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw"
+      },
+      "contentDetails": {
+        "videoId": "e3ybi2zlUKk",
+        "videoPublishedAt": "2017-03-14T16:56:29Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "5Q6l6UfDdUK-RkVyNGQxKV9Wivo",
+      "id": "UExqTWRsdm93eHJfMElaMTN1MWZFWk03WEV5Y1l2SUZUZS5EQUE1NTFDRjcwMDg0NEMz",
+      "snippet": {
+        "publishedAt": "2017-03-14T16:58:30Z",
+        "channelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw",
+        "title": "QURAN PARA 15 JUST/ONLY URDU TRANSLATION WITH TEXT HD (FATEH MUHAMMAD JALANDRI)",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EcXsbKw4FbY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EcXsbKw4FbY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EcXsbKw4FbY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/EcXsbKw4FbY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/EcXsbKw4FbY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "True Islam",
+        "playlistId": "PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe",
+        "position": 14,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "EcXsbKw4FbY"
+        },
+        "videoOwnerChannelTitle": "True Islam",
+        "videoOwnerChannelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw"
+      },
+      "contentDetails": {
+        "videoId": "EcXsbKw4FbY",
+        "videoPublishedAt": "2017-03-14T16:56:29Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "ZxrggSxCj0AKWehWZutzYRDGBJ4",
+      "id": "UExqTWRsdm93eHJfMElaMTN1MWZFWk03WEV5Y1l2SUZUZS43NDhFRTgwOTRERTU4Rjg3",
+      "snippet": {
+        "publishedAt": "2018-11-29T05:42:14Z",
+        "channelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw",
+        "title": "QURAN PARA 16 JUST URDU TRANSLATION WITH TEXT HD (FATEH MUHAMMAD JALANDRI)",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SNpxSwyEtNo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SNpxSwyEtNo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SNpxSwyEtNo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/SNpxSwyEtNo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/SNpxSwyEtNo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "True Islam",
+        "playlistId": "PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe",
+        "position": 15,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "SNpxSwyEtNo"
+        },
+        "videoOwnerChannelTitle": "True Islam",
+        "videoOwnerChannelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw"
+      },
+      "contentDetails": {
+        "videoId": "SNpxSwyEtNo",
+        "videoPublishedAt": "2018-11-29T05:38:49Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "MM_lY-ZX4L0KhuuSmxOQW6cSzMI",
+      "id": "UExqTWRsdm93eHJfMElaMTN1MWZFWk03WEV5Y1l2SUZUZS4zMDg5MkQ5MEVDMEM1NTg2",
+      "snippet": {
+        "publishedAt": "2017-03-14T16:58:30Z",
+        "channelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw",
+        "title": "QURAN PARA 17 JUST/ONLY URDU TRANSLATION WITH TEXT HD (FATEH MUHAMMAD JALANDRI)",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mLPh8InKc0U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mLPh8InKc0U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mLPh8InKc0U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/mLPh8InKc0U/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/mLPh8InKc0U/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "True Islam",
+        "playlistId": "PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe",
+        "position": 16,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "mLPh8InKc0U"
+        },
+        "videoOwnerChannelTitle": "True Islam",
+        "videoOwnerChannelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw"
+      },
+      "contentDetails": {
+        "videoId": "mLPh8InKc0U",
+        "videoPublishedAt": "2017-03-14T16:56:29Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "wEEHu-yDTQzeiqJ53tN0HrbXPGo",
+      "id": "UExqTWRsdm93eHJfMElaMTN1MWZFWk03WEV5Y1l2SUZUZS45ODRDNTg0QjA4NkFBNkQy",
+      "snippet": {
+        "publishedAt": "2017-03-14T16:58:30Z",
+        "channelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw",
+        "title": "QURAN PARA 18 JUST/ONLY URDU TRANSLATION WITH TEXT HD (FATEH MUHAMMAD JALANDRI)",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2mI3QntM9cA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2mI3QntM9cA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2mI3QntM9cA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/2mI3QntM9cA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/2mI3QntM9cA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "True Islam",
+        "playlistId": "PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe",
+        "position": 17,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "2mI3QntM9cA"
+        },
+        "videoOwnerChannelTitle": "True Islam",
+        "videoOwnerChannelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw"
+      },
+      "contentDetails": {
+        "videoId": "2mI3QntM9cA",
+        "videoPublishedAt": "2017-03-14T16:56:29Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "kgbYdKPbky1wgTzlVDawfg-eX74",
+      "id": "UExqTWRsdm93eHJfMElaMTN1MWZFWk03WEV5Y1l2SUZUZS5EMEEwRUY5M0RDRTU3NDJC",
+      "snippet": {
+        "publishedAt": "2017-03-14T16:58:30Z",
+        "channelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw",
+        "title": "QURAN PARA 19 JUST/ONLY URDU TRANSLATION WITH TEXT HD (FATEH MUHAMMAD JALANDRI)",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XWtpCU7_Vro/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XWtpCU7_Vro/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XWtpCU7_Vro/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/XWtpCU7_Vro/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/XWtpCU7_Vro/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "True Islam",
+        "playlistId": "PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe",
+        "position": 18,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "XWtpCU7_Vro"
+        },
+        "videoOwnerChannelTitle": "True Islam",
+        "videoOwnerChannelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw"
+      },
+      "contentDetails": {
+        "videoId": "XWtpCU7_Vro",
+        "videoPublishedAt": "2017-03-14T16:56:29Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "U65_PFb-JA1YzB3MSHkOsHQraB4",
+      "id": "UExqTWRsdm93eHJfMElaMTN1MWZFWk03WEV5Y1l2SUZUZS40NzZCMERDMjVEN0RFRThB",
+      "snippet": {
+        "publishedAt": "2017-02-20T13:01:20Z",
+        "channelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw",
+        "title": "QURAN PARA 20 JUST/ONLY URDU TRANSLATION WITH TEXT(FATEH MUHAMMAD JALANDRI) HD",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1LQMm8STnJA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1LQMm8STnJA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1LQMm8STnJA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/1LQMm8STnJA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/1LQMm8STnJA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "True Islam",
+        "playlistId": "PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe",
+        "position": 19,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "1LQMm8STnJA"
+        },
+        "videoOwnerChannelTitle": "True Islam",
+        "videoOwnerChannelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw"
+      },
+      "contentDetails": {
+        "videoId": "1LQMm8STnJA",
+        "videoPublishedAt": "2017-02-20T12:28:15Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "5vWd_V6nSmiDFBvpGP9zG3EVhE8",
+      "id": "UExqTWRsdm93eHJfMElaMTN1MWZFWk03WEV5Y1l2SUZUZS5GNjNDRDREMDQxOThCMDQ2",
+      "snippet": {
+        "publishedAt": "2017-02-20T13:01:20Z",
+        "channelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw",
+        "title": "QURAN PARA 21 JUST/ONLY URDU TRANSLATION WITH TEXT(FATEH MUHAMMAD JALANDRI) HD",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1FoqSGc-3Fo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1FoqSGc-3Fo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1FoqSGc-3Fo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/1FoqSGc-3Fo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/1FoqSGc-3Fo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "True Islam",
+        "playlistId": "PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe",
+        "position": 20,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "1FoqSGc-3Fo"
+        },
+        "videoOwnerChannelTitle": "True Islam",
+        "videoOwnerChannelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw"
+      },
+      "contentDetails": {
+        "videoId": "1FoqSGc-3Fo",
+        "videoPublishedAt": "2017-02-20T12:28:15Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "3R3YOA1zcaKBdjj-AfCrDVQ1m6s",
+      "id": "UExqTWRsdm93eHJfMElaMTN1MWZFWk03WEV5Y1l2SUZUZS45NDk1REZENzhEMzU5MDQz",
+      "snippet": {
+        "publishedAt": "2017-02-15T12:29:03Z",
+        "channelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw",
+        "title": "QURAN PARA 22 JUST/ONLY URDU TRANSLATION WITH TEXT(FATEH MUHAMMAD JALANDRI) HD",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NyfVoKlHLLQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NyfVoKlHLLQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NyfVoKlHLLQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/NyfVoKlHLLQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/NyfVoKlHLLQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "True Islam",
+        "playlistId": "PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe",
+        "position": 21,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "NyfVoKlHLLQ"
+        },
+        "videoOwnerChannelTitle": "True Islam",
+        "videoOwnerChannelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw"
+      },
+      "contentDetails": {
+        "videoId": "NyfVoKlHLLQ",
+        "videoPublishedAt": "2017-02-15T12:28:41Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "m2v_hH2MZ5E6f3MZpe0j8ZObLxs",
+      "id": "UExqTWRsdm93eHJfMElaMTN1MWZFWk03WEV5Y1l2SUZUZS41MzJCQjBCNDIyRkJDN0VD",
+      "snippet": {
+        "publishedAt": "2017-01-26T17:31:50Z",
+        "channelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw",
+        "title": "QURAN PARA 23 JUST/ONLY URDU TRANSLATION WITH TEXT (FATEH MUHAMMAD JALANDRI) HD",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/s_BrgXS_ZU0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/s_BrgXS_ZU0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/s_BrgXS_ZU0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/s_BrgXS_ZU0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/s_BrgXS_ZU0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "True Islam",
+        "playlistId": "PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe",
+        "position": 22,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "s_BrgXS_ZU0"
+        },
+        "videoOwnerChannelTitle": "True Islam",
+        "videoOwnerChannelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw"
+      },
+      "contentDetails": {
+        "videoId": "s_BrgXS_ZU0",
+        "videoPublishedAt": "2017-01-26T17:31:22Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "fWcUDKFx9tD_WGVGk5Y20wkErQs",
+      "id": "UExqTWRsdm93eHJfMElaMTN1MWZFWk03WEV5Y1l2SUZUZS4xMkVGQjNCMUM1N0RFNEUx",
+      "snippet": {
+        "publishedAt": "2017-01-26T17:31:50Z",
+        "channelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw",
+        "title": "QURAN PARA 24 JUST/ONLY URDU TRANSLATION WITH TEXT (FATEH MUHAMMAD JALANDRI) HD",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5Xmqifxm6ow/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5Xmqifxm6ow/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5Xmqifxm6ow/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/5Xmqifxm6ow/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/5Xmqifxm6ow/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "True Islam",
+        "playlistId": "PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe",
+        "position": 23,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "5Xmqifxm6ow"
+        },
+        "videoOwnerChannelTitle": "True Islam",
+        "videoOwnerChannelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw"
+      },
+      "contentDetails": {
+        "videoId": "5Xmqifxm6ow",
+        "videoPublishedAt": "2017-01-26T17:31:22Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "ed3m5A777kFrRgTsNm-4C2LWy5g",
+      "id": "UExqTWRsdm93eHJfMElaMTN1MWZFWk03WEV5Y1l2SUZUZS5DQUNERDQ2NkIzRUQxNTY1",
+      "snippet": {
+        "publishedAt": "2017-01-27T17:08:39Z",
+        "channelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw",
+        "title": "QURAN PARA 25 JUST/ONLY URDU TRANSLATION WITH TEXT (FATEH MUHAMMAD JALANDRI) HD",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/B0dQO2lYas4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/B0dQO2lYas4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/B0dQO2lYas4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/B0dQO2lYas4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/B0dQO2lYas4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "True Islam",
+        "playlistId": "PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe",
+        "position": 24,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "B0dQO2lYas4"
+        },
+        "videoOwnerChannelTitle": "True Islam",
+        "videoOwnerChannelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw"
+      },
+      "contentDetails": {
+        "videoId": "B0dQO2lYas4",
+        "videoPublishedAt": "2017-01-27T13:29:19Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "BYLF5z9m9hW_3TehN7nCSNJXQ8k",
+      "id": "UExqTWRsdm93eHJfMElaMTN1MWZFWk03WEV5Y1l2SUZUZS4wOTA3OTZBNzVEMTUzOTMy",
+      "snippet": {
+        "publishedAt": "2017-01-25T13:47:54Z",
+        "channelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw",
+        "title": "QURAN PARA 26 JUST/ONLY URDU TRANSLATION WITH TEXT HD (FATEH MUHAMMAD JALANDRI)",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ODpJZYwkW4w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ODpJZYwkW4w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ODpJZYwkW4w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ODpJZYwkW4w/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ODpJZYwkW4w/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "True Islam",
+        "playlistId": "PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe",
+        "position": 25,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "ODpJZYwkW4w"
+        },
+        "videoOwnerChannelTitle": "True Islam",
+        "videoOwnerChannelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw"
+      },
+      "contentDetails": {
+        "videoId": "ODpJZYwkW4w",
+        "videoPublishedAt": "2017-01-25T12:17:08Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "DzuZSQ5y8LiWmEl56Ax_LFStH60",
+      "id": "UExqTWRsdm93eHJfMElaMTN1MWZFWk03WEV5Y1l2SUZUZS41MjE1MkI0OTQ2QzJGNzNG",
+      "snippet": {
+        "publishedAt": "2017-01-16T18:21:47Z",
+        "channelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw",
+        "title": "QURAN PARA 27 JUST/ONLY URDU TRANSLATION WITH TEXT (FATEH MUHAMMAD JALANDRI)",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bRShyZM7qH4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bRShyZM7qH4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bRShyZM7qH4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/bRShyZM7qH4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/bRShyZM7qH4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "True Islam",
+        "playlistId": "PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe",
+        "position": 26,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "bRShyZM7qH4"
+        },
+        "videoOwnerChannelTitle": "True Islam",
+        "videoOwnerChannelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw"
+      },
+      "contentDetails": {
+        "videoId": "bRShyZM7qH4",
+        "videoPublishedAt": "2017-01-16T17:33:49Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "JOCR3Bs2Yd7Bbm3t7K0NkT-Ii0U",
+      "id": "UExqTWRsdm93eHJfMElaMTN1MWZFWk03WEV5Y1l2SUZUZS4wMTcyMDhGQUE4NTIzM0Y5",
+      "snippet": {
+        "publishedAt": "2017-01-11T17:55:05Z",
+        "channelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw",
+        "title": "QURAN PARA 28 JUST/ONLY URDU TRANSLATION(FATEH MUHAMMAD JALANDRI) WITH TEXT HD",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/t23SdpmB5KQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/t23SdpmB5KQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/t23SdpmB5KQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/t23SdpmB5KQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/t23SdpmB5KQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "True Islam",
+        "playlistId": "PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe",
+        "position": 27,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "t23SdpmB5KQ"
+        },
+        "videoOwnerChannelTitle": "True Islam",
+        "videoOwnerChannelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw"
+      },
+      "contentDetails": {
+        "videoId": "t23SdpmB5KQ",
+        "videoPublishedAt": "2017-01-11T17:54:11Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "LHrNu24vSQKPMhMuqTcI16eyWvw",
+      "id": "UExqTWRsdm93eHJfMElaMTN1MWZFWk03WEV5Y1l2SUZUZS4yODlGNEE0NkRGMEEzMEQy",
+      "snippet": {
+        "publishedAt": "2017-01-02T15:15:10Z",
+        "channelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw",
+        "title": "QURAN PARA 29 JUST/ONLY URDU TRANSLATION(FATEH MUHAMMAD JALANDRI) WITH TEXT HD",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/z5Cw8XmILU4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/z5Cw8XmILU4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/z5Cw8XmILU4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/z5Cw8XmILU4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/z5Cw8XmILU4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "True Islam",
+        "playlistId": "PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe",
+        "position": 28,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "z5Cw8XmILU4"
+        },
+        "videoOwnerChannelTitle": "True Islam",
+        "videoOwnerChannelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw"
+      },
+      "contentDetails": {
+        "videoId": "z5Cw8XmILU4",
+        "videoPublishedAt": "2017-01-02T14:40:12Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "iTzMtOKpPIri-aduAcY9j-fri_4",
+      "id": "UExqTWRsdm93eHJfMElaMTN1MWZFWk03WEV5Y1l2SUZUZS41NkI0NEY2RDEwNTU3Q0M2",
+      "snippet": {
+        "publishedAt": "2017-01-02T09:11:56Z",
+        "channelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw",
+        "title": "QURAN PARA 30 JUST/ONLY URDU TRANSLATION(FATEH MUHAMMAD JALANDRI) WITH TEXT HD",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/--ote1hSF6E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/--ote1hSF6E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/--ote1hSF6E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/--ote1hSF6E/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/--ote1hSF6E/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "True Islam",
+        "playlistId": "PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe",
+        "position": 29,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "--ote1hSF6E"
+        },
+        "videoOwnerChannelTitle": "True Islam",
+        "videoOwnerChannelId": "UCrXoD1Vu3IoX_yI_EQ1nhvw"
+      },
+      "contentDetails": {
+        "videoId": "--ote1hSF6E",
+        "videoPublishedAt": "2017-01-02T09:09:51Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    }
+  ]
+}

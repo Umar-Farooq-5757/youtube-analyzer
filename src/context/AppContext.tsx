@@ -1,6 +1,13 @@
 import { createContext, useContext, useState, type ReactNode } from "react";
 import { parseYouTubeUrl } from "../utils/youtube";
-import { getVideoDetails } from "../services/youtube";
+import {
+  getChannelDetails,
+  getChannelPlaylists,
+  getPlaylistDetails,
+  getPlaylistVideos,
+  getVideoDetails,
+} from "../services/youtube";
+import moment from "moment";
 
 interface AppContextType {
   developer: string;
@@ -13,6 +20,7 @@ interface AppContextType {
     countStr: string | number,
     displayNotation: "compact" | "engineering" | "scientific" | "standard",
   ) => string;
+  getDurationForDifferentSpeeds: (isoDuration: string, speed: number) => string;
 }
 
 const AppContext = createContext<AppContextType | undefined>(undefined);
@@ -21,7 +29,7 @@ export const AppContextProvider: React.FC<{ children: ReactNode }> = ({
   children,
 }) => {
   const [developer] = useState("umarfarooq");
-  const [selected, setSelected] = useState<string>("video");
+  const [selected, setSelected] = useState<string>("channel");
   const [data, setData] = useState<any>(null);
 
   const handleAnalyze = async (youtubeUrl: string) => {
@@ -31,14 +39,72 @@ export const AppContextProvider: React.FC<{ children: ReactNode }> = ({
       return;
     }
     try {
-      let result: any;
       if (type === "video") {
         setSelected("video");
-        result = await getVideoDetails(id);
-        setData({ type, details: result.items[0] });
+        const videoResult = await getVideoDetails(id);
+        console.log({ type, details: videoResult.items[0] });
+        setData({
+          type: "video",
+          details: videoResult.items[0],
+        });
+      } else if (type === "playlist") {
+        setSelected("playlist");
+
+        const [playlistResult, playlistItemsResult] = await Promise.all([
+          getPlaylistDetails(id),
+          getPlaylistVideos(id),
+        ]);
+        console.log({
+          type,
+          details: playlistResult.items[0],
+          items: playlistItemsResult.items || [],
+        });
+        setData({
+          type: "playlist",
+          details: playlistResult.items[0],
+          items: playlistItemsResult.items || [],
+        });
+      } else if (type === "channel") {
+        setSelected("channel");
+
+        const channelResult = await getChannelDetails(id);
+        const channel = channelResult.items[0];
+
+        if (!channel) {
+          throw new Error("Channel not found");
+        }
+
+        const playlistsData = await getChannelPlaylists(channel.id);
+
+        const keywordsRaw = channel.brandingSettings?.channel?.keywords || "";
+        const channelKeywords = keywordsRaw
+          ? keywordsRaw
+              .match(/(?:[^\s"]+|"[^"]*")+/g)
+              ?.map((k: string) => k.replace(/"/g, "")) || []
+          : [];
+        console.log({
+          type: "channel",
+          details: channel,
+          playlists: playlistsData.items || [],
+          totalPlaylists:
+            playlistsData.pageInfo?.totalResults ||
+            playlistsData.items?.length ||
+            0,
+          keywords: channelKeywords,
+        });
+        setData({
+          type: "channel",
+          details: channel,
+          playlists: playlistsData.items || [],
+          totalPlaylists:
+            playlistsData.pageInfo?.totalResults ||
+            playlistsData.items?.length ||
+            0,
+          keywords: channelKeywords,
+        });
       }
     } catch (err: any) {
-      console.error("Failed to fetch YouTube data");
+      console.error("Failed to fetch YouTube data:", err);
     }
   };
 
@@ -55,6 +121,28 @@ export const AppContextProvider: React.FC<{ children: ReactNode }> = ({
     }).format(num);
   };
 
+  const getDurationForDifferentSpeeds = (
+    isoDuration: string,
+    speed: number,
+  ): string => {
+    if (!isoDuration) return "00:00";
+
+    const totalSeconds = moment.duration(isoDuration).asSeconds();
+    const adjustedSeconds = Math.round(totalSeconds / speed);
+
+    const dur = moment.duration(adjustedSeconds, "seconds");
+    const hours = Math.floor(dur.asHours());
+    const minutes = dur.minutes();
+    const seconds = dur.seconds();
+
+    const pad = (num: number) => String(num).padStart(2, "0");
+
+    if (hours > 0) {
+      return `${hours}:${pad(minutes)}:${pad(seconds)}`;
+    }
+    return `${pad(minutes)}:${pad(seconds)}`;
+  };
+
   return (
     <AppContext.Provider
       value={{
@@ -65,6 +153,7 @@ export const AppContextProvider: React.FC<{ children: ReactNode }> = ({
         setData,
         handleAnalyze,
         beautifyBigNumber,
+        getDurationForDifferentSpeeds,
       }}>
       {children}
     </AppContext.Provider>

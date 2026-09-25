@@ -12,7 +12,7 @@ export function parseYouTubeUrl(input: string): ParsedYouTubeUrl {
     return { type: "playlist", id: playlistMatch[1] };
   }
   const videoMatch = url.match(
-    /(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))([\w-]{11})/,
+    /(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|shorts\/|watch\?v=|watch\?.+&v=))([\w-]{11})/,
   );
   if (videoMatch && videoMatch[1]) {
     return { type: "video", id: videoMatch[1] };

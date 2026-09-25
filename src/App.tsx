@@ -1,4 +1,5 @@
 import "./App.css";
+import Channel from "./components/Channel";
 import Sidebar from "./components/Sidebar";
 import Video from "./components/Video";
 import { useAppContext } from "./context/AppContext";
@@ -13,7 +14,7 @@ const App = () => {
       </div>
       <section className="bg-[#101014] py-6 px-8 flex-1 h-full overflow-y-auto">
         {selected === "video" && <Video />}
-        {selected === "channel" && <div>channel</div>}
+        {selected === "channel" && <Channel />}
         {selected === "playlist" && <div>playlist</div>}
       </section>
     </main>

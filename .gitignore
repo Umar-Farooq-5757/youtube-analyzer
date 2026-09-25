@@ -27,5 +27,4 @@ dist-ssr
 .vercel
 .env*
 
-structure.json
-brainstorm.md
+brainstorm.node_modules

@@ -3,11 +3,11 @@ const BASE_URL = "https://www.googleapis.com/youtube/v3";
 
 const fetchFromYouTube = async <T>(
   endpoint: string,
-  params: Record<string, string>
+  params: Record<string, string>,
 ): Promise<T> => {
   if (!API_KEY) {
     throw new Error(
-      "Missing VITE_YOUTUBE_API_KEY. Please set it in your .env.local file."
+      "Missing VITE_YOUTUBE_API_KEY. Please set it in your .env.local file.",
     );
   }
 
@@ -15,41 +15,44 @@ const fetchFromYouTube = async <T>(
     key: API_KEY,
     ...params,
   });
-  const response = await fetch(`${BASE_URL}/${endpoint}?${queryParams.toString()}`);
+  const response = await fetch(
+    `${BASE_URL}/${endpoint}?${queryParams.toString()}`,
+  );
   const data = await response.json();
   if (!response.ok) {
     throw new Error(
-      data.error?.message || `Error ${response.status}: Failed to fetch YouTube data`
+      data.error?.message ||
+        `Error ${response.status}: Failed to fetch YouTube data`,
     );
   }
   return data as T;
 };
 
 export const getVideoDetails = async <T = any>(
-  videoIds: string | string[]
+  videoIds: string | string[],
 ): Promise<T> => {
   const ids = Array.isArray(videoIds) ? videoIds.join(",") : videoIds;
   return fetchFromYouTube<T>("videos", {
-    part: "snippet,statistics,contentDetails",
+    part: "snippet,contentDetails,statistics,status,player,topicDetails,recordingDetails",
     id: ids,
   });
 };
 
 export const getPlaylistDetails = async <T = any>(
-  playlistId: string
+  playlistId: string,
 ): Promise<T> => {
   return fetchFromYouTube<T>("playlists", {
-    part: "snippet,contentDetails",
+    part: "snippet,contentDetails,status,player,localizations",
     id: playlistId,
   });
 };
 
 export const getPlaylistVideos = async <T = any>(
   playlistId: string,
-  pageToken: string = ""
+  pageToken: string = "",
 ): Promise<T> => {
   const params: Record<string, string> = {
-    part: "snippet,contentDetails",
+    part: "snippet,contentDetails,status",
     playlistId,
     maxResults: "50",
   };
@@ -58,11 +61,11 @@ export const getPlaylistVideos = async <T = any>(
 };
 
 export const getChannelDetails = async <T = any>(
-  channelOrHandle: string
+  channelOrHandle: string,
 ): Promise<T> => {
   const isHandle = channelOrHandle.startsWith("@");
   const params: Record<string, string> = {
-    part: "snippet,statistics,contentDetails",
+    part: "snippet,contentDetails,statistics,status,brandingSettings,topicDetails,localizations",
   };
 
   if (isHandle) {
@@ -74,12 +77,12 @@ export const getChannelDetails = async <T = any>(
   return fetchFromYouTube<T>("channels", params);
 };
 
-export const getChannelUploads = async <T = any>(
-  uploadsPlaylistId: string
+export const getChannelPlaylists = async <T = any>(
+  channelId: string,
 ): Promise<T> => {
-  return fetchFromYouTube<T>("playlistItems", {
-    part: "snippet,contentDetails",
-    playlistId: uploadsPlaylistId,
+  return fetchFromYouTube<T>("playlists", {
+    part: "snippet,contentDetails,status,player,localizations",
+    channelId,
     maxResults: "50",
   });
 };

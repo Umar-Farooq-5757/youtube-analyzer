@@ -6,7 +6,12 @@ import StatCard from "./StatCard";
 import moment from "moment";
 
 const Video: React.FC = () => {
-  const { handleAnalyze, beautifyBigNumber, data } = useAppContext();
+  const {
+    handleAnalyze,
+    beautifyBigNumber,
+    getDurationForDifferentSpeeds,
+    data,
+  } = useAppContext();
   const [inputValue, setInputValue] = useState<string>("");
 
   const differentSpeeds = [
@@ -15,28 +20,6 @@ const Video: React.FC = () => {
     { label: "1.5x Speed", speed: 1.5 },
     { label: "2.0x Speed", speed: 2.0 },
   ];
-
-  const getDurationForDifferentSpeeds = (
-    isoDuration: string,
-    speed: number,
-  ): string => {
-    if (!isoDuration) return "00:00";
-
-    const totalSeconds = moment.duration(isoDuration).asSeconds();
-    const adjustedSeconds = Math.round(totalSeconds / speed);
-
-    const dur = moment.duration(adjustedSeconds, "seconds");
-    const hours = Math.floor(dur.asHours());
-    const minutes = dur.minutes();
-    const seconds = dur.seconds();
-
-    const pad = (num: number) => String(num).padStart(2, "0");
-
-    if (hours > 0) {
-      return `${hours}:${pad(minutes)}:${pad(seconds)}`;
-    }
-    return `${pad(minutes)}:${pad(seconds)}`;
-  };
 
   return (
     <div className="w-full">
