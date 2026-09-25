@@ -112,6 +112,57 @@ const Channel: React.FC = () => {
                 value={String(data.playlists.length)}
               />
             </div>
+            {/* Channel Keywords */}
+            {data.keywords && (
+              <div className="border-2 border-[#29272B] rounded-md py-5 px-5 shadow-[3px_3px_0px_0px_#29272B] my-4">
+                <p className="text-[#a89bbd] uppercase font-semibold text-sm">
+                  Channel Keywords
+                </p>
+                <div className="h-0.5 w-full bg-[#29282b] my-3"></div>
+                <div className="flex flex-wrap space-x-3 space-y-1">
+                  {data.keywords?.map((keyword: string, idx: number) => (
+                    <div
+                      key={idx}
+                      className="bg-[#101014] text-sm border-2 border-[#29272B] rounded-sm px-2 py-0.5">
+                      {keyword}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+            {/* Playlists */}
+            <div className="border-2 border-[#29272B] rounded-md py-5 px-5 shadow-[3px_3px_0px_0px_#29272B] my-4">
+              <p className="text-[#a89bbd] uppercase font-semibold text-sm">
+                Playlists
+              </p>
+              <div className="h-0.5 w-full bg-[#29282b] my-3"></div>
+              <div className="grid grid-cols-3 gap-3">
+                {data.playlists.map((playlist: any) => (
+                  <div
+                    className="border-2 border-[#29272B] rounded-md py-3 px-3 space-y-2 w-full shadow-[3px_3px_0px_0px_#29272B]"
+                    key={playlist.id}>
+                    <img
+                      className="w-full rounded-md"
+                      src={playlist.snippet.thumbnails.high.url}
+                      alt=""
+                    />
+                    <div className="flex justify-between items-start">
+                      <p className="text-[15px]">{playlist.snippet.title}</p>
+                      <div className="bg-[#101014] text-sm border-2 border-[#29272B] rounded-sm px-2 py-0.5">
+                        {playlist.contentDetails.itemCount}
+                      </div>
+                    </div>
+                    <a
+                      href={`https://www.youtube.com/playlist?list=${playlist.id}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm font-semibold text-blue-500 underline cursor-pointer">
+                      View on youtube
+                    </a>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         )}
       </div>
