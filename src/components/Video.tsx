@@ -4,13 +4,15 @@ import { useAppContext } from "../context/AppContext";
 import { useState } from "react";
 import StatCard from "./StatCard";
 import moment from "moment";
-import data from '../../structure/videoStructure.json'
+import { TbLoader2 } from "react-icons/tb";
+// import videoData from "../../structure/videoStructure.json";
 
 const Video: React.FC = () => {
   const {
     handleAnalyze,
     beautifyBigNumber,
     getDurationForDifferentSpeeds,
+    isLoading,videoData
   } = useAppContext();
   const [inputValue, setInputValue] = useState<string>("");
 
@@ -53,47 +55,56 @@ const Video: React.FC = () => {
             Analysis
           </p>
         </div>
-        {!data && (
+        {!videoData && (
           <div className="flex-1 flex items-center justify-center gap-2 flex-col opacity-40">
-            <p>No Data Available.</p>
-            <p>Enter a YouTube Video URL to start analyzing.</p>
+            {!isLoading ? (
+              <>
+                <p>No Data Available.</p>
+                <p>Enter a YouTube Channel URL to start analyzing.</p>
+              </>
+            ) : (
+              <>
+                <TbLoader2 className="animate-spin size-8" />
+                <p>loading...</p>
+              </>
+            )}
           </div>
         )}
-        {data && (
+        {videoData && (
           <div className="my-2">
             <p className="text-lg font-semibold">
-              {data.details.snippet.title}
+              {videoData.details.snippet.title}
             </p>
             {/* Stat cards */}
             <div className="my-4 grid grid-cols-3 gap-3">
               <StatCard
                 title={"Views"}
                 value={beautifyBigNumber(
-                  data.details.statistics.viewCount,
+                  videoData.details.statistics.viewCount,
                   "compact",
                 )}
-                tooltipValue={data.details.statistics.viewCount}
+                tooltipValue={videoData.details.statistics.viewCount}
               />
               <StatCard
                 title={"Likes"}
                 value={beautifyBigNumber(
-                  data.details.statistics.likeCount,
+                  videoData.details.statistics.likeCount,
                   "compact",
                 )}
-                tooltipValue={data.details.statistics.likeCount}
+                tooltipValue={videoData.details.statistics.likeCount}
               />
               <StatCard
                 title={"Comments"}
                 value={beautifyBigNumber(
-                  data.details.statistics.commentCount,
+                  videoData.details.statistics.commentCount,
                   "compact",
                 )}
-                tooltipValue={data.details.statistics.commentCount}
+                tooltipValue={videoData.details.statistics.commentCount}
               />
             </div>
             <div className="border-2 border-[#29272B] rounded-md px-3 py-5 overflow-hidden shadow-[3px_3px_0px_0px_#29272B]">
               <iframe
-                src={`https://www.youtube.com/embed/${data.details.id}`}
+                src={`https://www.youtube.com/embed/${videoData.details.id}`}
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
@@ -105,27 +116,27 @@ const Video: React.FC = () => {
               <StatCard
                 title={"Duration"}
                 value={getDurationForDifferentSpeeds(
-                  data.details.contentDetails.duration,
+                  videoData.details.contentDetails.duration,
                   1,
                 )}
               />
               <StatCard
                 title={"Published on"}
-                value={moment(data.details.snippet.publishedAt).format(
+                value={moment(videoData.details.snippet.publishedAt).format(
                   "DD MM YYYY",
                 )}
-                extra={moment(data.details.snippet.publishedAt).fromNow()}
+                extra={moment(videoData.details.snippet.publishedAt).fromNow()}
               />
               <div className="border-2 border-[#29272B] rounded-md py-5 px-5 space-y-2 w-full shadow-[3px_3px_0px_0px_#29272B]">
                 <p className="text-[#a89bbd] uppercase font-semibold text-sm">
                   Channel
                 </p>
                 <a
-                  href={`https://www.youtube.com/channel/${data.details.snippet.channelId}`}
+                  href={`https://www.youtube.com/channel/${videoData.details.snippet.channelId}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[15px] font-semibold text-blue-500 underline cursor-pointer">
-                  {data.details.snippet.channelTitle}
+                  {videoData.details.snippet.channelTitle}
                 </a>
               </div>
             </div>
@@ -145,7 +156,7 @@ const Video: React.FC = () => {
                     </span>
                     <span className="text-[#F7E9A8] font-bold text-lg mt-1 small-text-shadow">
                       {getDurationForDifferentSpeeds(
-                        data.details.contentDetails.duration,
+                        videoData.details.contentDetails.duration,
                         speed,
                       )}
                     </span>
@@ -162,7 +173,7 @@ const Video: React.FC = () => {
               <div className="flex flex-wrap space-x-3 space-y-1">
                 <img
                   className="rounded-md mx-auto"
-                  src={data.details.snippet.thumbnails.high.url}
+                  src={videoData.details.snippet.thumbnails.high.url}
                   alt=""
                 />
               </div>
@@ -174,18 +185,18 @@ const Video: React.FC = () => {
               </p>
               <div className="h-0.5 w-full bg-[#29282b] my-3"></div>
               <p className="whitespace-pre-line">
-                {data.details.snippet.description}
+                {videoData.details.snippet.description}
               </p>
             </div>
             {/* Tags */}
-            {data.details.snippet.tags && (
+            {videoData.details.snippet.tags && (
               <div className="border-2 border-[#29272B] rounded-md py-5 px-5 shadow-[3px_3px_0px_0px_#29272B] my-4">
                 <p className="text-[#a89bbd] uppercase font-semibold text-sm">
                   Tags
                 </p>
                 <div className="h-0.5 w-full bg-[#29282b] my-3"></div>
                 <div className="flex flex-wrap space-x-3 space-y-1">
-                  {data.details.snippet.tags?.map(
+                  {videoData.details.snippet.tags?.map(
                     (tag: string, idx: number) => (
                       <div
                         key={idx}

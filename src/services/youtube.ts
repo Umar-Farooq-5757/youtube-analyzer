@@ -67,13 +67,11 @@ export const getChannelDetails = async <T = any>(
   const params: Record<string, string> = {
     part: "snippet,contentDetails,statistics,status,brandingSettings,topicDetails,localizations",
   };
-
   if (isHandle) {
     params.forHandle = channelOrHandle;
   } else {
     params.id = channelOrHandle;
   }
-
   return fetchFromYouTube<T>("channels", params);
 };
 

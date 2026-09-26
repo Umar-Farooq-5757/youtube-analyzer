@@ -12,14 +12,20 @@ interface AppContextType {
   developer: string;
   selected: string;
   setSelected: (value: string) => void;
-  data: any;
-  setData: (value: any) => void;
+  videoData: any;
+  setVideoData: (value: any) => void;
+  channelData: any;
+  setChannelData: (value: any) => void;
+  playlistData: any;
+  setPlaylistData: (value: any) => void;
   handleAnalyze: (value: string) => void;
   beautifyBigNumber: (
     countStr: string | number,
     displayNotation: "compact" | "engineering" | "scientific" | "standard",
   ) => string;
   getDurationForDifferentSpeeds: (isoDuration: string, speed: number) => string;
+  isLoading: boolean;
+  setIsLoading: (value: boolean) => void;
 }
 
 const AppContext = createContext<AppContextType | undefined>(undefined);
@@ -29,7 +35,10 @@ export const AppContextProvider: React.FC<{ children: ReactNode }> = ({
 }) => {
   const [developer] = useState("umarfarooq");
   const [selected, setSelected] = useState<string>("playlist");
-  const [data, setData] = useState<any>(null);
+  const [videoData, setVideoData] = useState<any>(null);
+  const [channelData, setChannelData] = useState<any>(null);
+  const [playlistData, setPlaylistData] = useState<any>(null);
+  const [isLoading, setIsLoading] = useState<boolean>(false);
 
   const handleAnalyze = async (youtubeUrl: string) => {
     const { type, id } = parseYouTubeUrl(youtubeUrl);
@@ -37,18 +46,19 @@ export const AppContextProvider: React.FC<{ children: ReactNode }> = ({
       console.error("Invalid YouTube URL");
       return;
     }
+    setIsLoading(true);
     try {
       if (type === "video") {
         setSelected("video");
         const videoResult = await getVideoDetails(id);
-        setData({
+        setVideoData({
           type: "video",
           details: videoResult.items[0],
         });
       } else if (type === "playlist") {
         setSelected("playlist");
         const enhancedPlaylist = await getEnhancedPlaylistData(id);
-        setData({
+        setPlaylistData({
           type: "playlist",
           details: enhancedPlaylist.details,
           items: enhancedPlaylist.items,
@@ -71,7 +81,7 @@ export const AppContextProvider: React.FC<{ children: ReactNode }> = ({
               .match(/(?:[^\s"]+|"[^"]*")+/g)
               ?.map((k: string) => k.replace(/"/g, "")) || []
           : [];
-        setData({
+        setChannelData({
           type: "channel",
           details: channel,
           playlists: playlistsData.items || [],
@@ -84,6 +94,8 @@ export const AppContextProvider: React.FC<{ children: ReactNode }> = ({
       }
     } catch (err: any) {
       console.error("Failed to fetch YouTube data:", err);
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -128,11 +140,17 @@ export const AppContextProvider: React.FC<{ children: ReactNode }> = ({
         developer,
         selected,
         setSelected,
-        data,
-        setData,
+        videoData,
+        setVideoData,
+        channelData,
+        setChannelData,
+        playlistData,
+        setPlaylistData,
         handleAnalyze,
         beautifyBigNumber,
         getDurationForDifferentSpeeds,
+        isLoading,
+        setIsLoading,
       }}>
       {children}
     </AppContext.Provider>

@@ -2,13 +2,15 @@ import type React from "react";
 import { useState } from "react";
 import { PiStarFourFill } from "react-icons/pi";
 import { useAppContext } from "../context/AppContext";
-import data from "../../structure/playlistStructure.json";
 import StatCard from "./StatCard";
 import moment from "moment";
 import VideosList from "./VideosList";
+import { TbLoader2 } from "react-icons/tb";
+// import playlistData from '../../structure/playlistStructure.json'
 
 const Playlist: React.FC = () => {
-  const { handleAnalyze, beautifyBigNumber } = useAppContext();
+  const { handleAnalyze, beautifyBigNumber, isLoading,playlistData } =
+    useAppContext();
   const [inputValue, setInputValue] = useState<string>("");
   return (
     <div className="w-full">
@@ -44,50 +46,63 @@ const Playlist: React.FC = () => {
             Analysis
           </p>
         </div>
-        {!data && (
+        {!playlistData && (
           <div className="flex-1 flex items-center justify-center gap-2 flex-col opacity-40">
-            <p>No Data Available.</p>
-            <p>Enter a YouTube Playlist URL to start analyzing.</p>
+            {!isLoading ? (
+              <>
+                <p>No Data Available.</p>
+                <p>Enter a YouTube Channel URL to start analyzing.</p>
+              </>
+            ) : (
+              <>
+                <TbLoader2 className="animate-spin size-8" />
+                <p>loading...</p>
+              </>
+            )}
           </div>
         )}
-        {data && (
+        {playlistData && (
           <div className="my-2">
             <p className="text-lg font-semibold">
-              {data.details.snippet.title}
+              {playlistData.details.snippet.title}
             </p>
             {/* Stat cards */}
             <div className="my-4 grid grid-cols-3 gap-3">
               <StatCard
                 title={"Total Videos"}
                 value={beautifyBigNumber(
-                  data.details.contentDetails.itemCount,
+                  playlistData.details.contentDetails.itemCount,
                   "compact",
                 )}
-                tooltipValue={String(data.details.contentDetails.itemCount)}
+                tooltipValue={String(
+                  playlistData.details.contentDetails.itemCount,
+                )}
               />
               <StatCard
                 title={"Published on"}
-                value={moment(data.details.snippet.publishedAt).format(
+                value={moment(playlistData.details.snippet.publishedAt).format(
                   "DD MM YYYY",
                 )}
-                extra={moment(data.details.snippet.publishedAt).fromNow()}
+                extra={moment(
+                  playlistData.details.snippet.publishedAt,
+                ).fromNow()}
               />
               <div className="border-2 border-[#29272B] rounded-md py-5 px-5 space-y-2 w-full shadow-[3px_3px_0px_0px_#29272B]">
                 <p className="text-[#a89bbd] uppercase font-semibold text-sm">
                   Channel
                 </p>
                 <a
-                  href={`https://www.youtube.com/channel/${data.details.snippet.channelId}`}
+                  href={`https://www.youtube.com/channel/${playlistData.details.snippet.channelId}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[15px] font-semibold text-blue-500 underline cursor-pointer">
-                  {data.details.snippet.channelTitle}
+                  {playlistData.details.snippet.channelTitle}
                 </a>
               </div>
             </div>
             <div className="border-2 border-[#29272B] rounded-md px-3 py-5 overflow-hidden shadow-[3px_3px_0px_0px_#29272B]">
               <iframe
-                src={`http://www.youtube.com/embed/videoseries?list=${data.details.id}`}
+                src={`http://www.youtube.com/embed/videoseries?list=${playlistData.details.id}`}
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 title="YouTube video player"
                 allowFullScreen
@@ -95,13 +110,7 @@ const Playlist: React.FC = () => {
               />
             </div>
             {/* Videos List */}
-            <div className="border-2 border-[#29272B] rounded-md py-5 px-5 shadow-[3px_3px_0px_0px_#29272B] my-4">
-              <p className="text-[#a89bbd] uppercase font-semibold text-sm">
-                All Videos
-              </p>
-              <div className="h-0.5 w-full bg-[#29282b] my-3"></div>
-              <VideosList list={data.items}/>
-            </div>
+            <VideosList list={playlistData.items} />
           </div>
         )}
       </div>
@@ -112,3 +121,4 @@ const Playlist: React.FC = () => {
 export default Playlist;
 
 // https://youtube.com/playlist?list=PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe&si=GprkhkI1EsG9-AE-
+// https://www.youtube.com/playlist?list=PL8828Z-IEhFGrt2Tf1b0qg40g3AFw4YKp

@@ -1,971 +1,1017 @@
 {
-  "type": "channel",
-  "details": {
-    "kind": "youtube#channel",
-    "etag": "T0f9Imn4hf8tFvLa3bTDWkzaxAM",
-    "id": "UCX01N774wa9fGC9C4onEqPg",
-    "snippet": {
-      "title": "Waqas Nasir",
-      "description": "My name is Waqas Nasir. This channel will serve as an educational channel that will help students or people with their difficulties in Mathematics. I also upload videos of different topics which is helpful for students, whenever I have time.\n",
-      "customUrl": "@imwaqasnasir",
-      "publishedAt": "2018-10-01T18:49:52Z",
-      "thumbnails": {
-        "default": {
-          "url": "https://yt3.ggpht.com/qW2pjGldlAz0DhruqhH-IzasUAxd84OtDRZoD-hNEmsqYOabDqVM45_XFQRuvgQ9DAWb8SXZuw=s88-c-k-c0x00ffffff-no-rj",
-          "width": 88,
-          "height": 88
+    "type": "channel",
+    "details": {
+        "kind": "youtube#channel",
+        "etag": "Q9oyzqBC2vjhsotT9YD1t292XOo",
+        "id": "UCX01N774wa9fGC9C4onEqPg",
+        "snippet": {
+            "title": "Waqas Nasir",
+            "description": "My name is Waqas Nasir. This channel will serve as an educational channel that will help students or people with their difficulties in Mathematics. I also upload videos of different topics which is helpful for students, whenever I have time.\n",
+            "customUrl": "@imwaqasnasir",
+            "publishedAt": "2018-10-01T18:49:52Z",
+            "thumbnails": {
+                "default": {
+                    "url": "https://yt3.ggpht.com/qW2pjGldlAz0DhruqhH-IzasUAxd84OtDRZoD-hNEmsqYOabDqVM45_XFQRuvgQ9DAWb8SXZuw=s88-c-k-c0x00ffffff-no-rj",
+                    "width": 88,
+                    "height": 88
+                },
+                "medium": {
+                    "url": "https://yt3.ggpht.com/qW2pjGldlAz0DhruqhH-IzasUAxd84OtDRZoD-hNEmsqYOabDqVM45_XFQRuvgQ9DAWb8SXZuw=s240-c-k-c0x00ffffff-no-rj",
+                    "width": 240,
+                    "height": 240
+                },
+                "high": {
+                    "url": "https://yt3.ggpht.com/qW2pjGldlAz0DhruqhH-IzasUAxd84OtDRZoD-hNEmsqYOabDqVM45_XFQRuvgQ9DAWb8SXZuw=s800-c-k-c0x00ffffff-no-rj",
+                    "width": 800,
+                    "height": 800
+                }
+            },
+            "localized": {
+                "title": "Waqas Nasir",
+                "description": "My name is Waqas Nasir. This channel will serve as an educational channel that will help students or people with their difficulties in Mathematics. I also upload videos of different topics which is helpful for students, whenever I have time.\n"
+            },
+            "country": "PK"
         },
-        "medium": {
-          "url": "https://yt3.ggpht.com/qW2pjGldlAz0DhruqhH-IzasUAxd84OtDRZoD-hNEmsqYOabDqVM45_XFQRuvgQ9DAWb8SXZuw=s240-c-k-c0x00ffffff-no-rj",
-          "width": 240,
-          "height": 240
+        "contentDetails": {
+            "relatedPlaylists": {
+                "likes": "",
+                "uploads": "UUX01N774wa9fGC9C4onEqPg"
+            }
         },
-        "high": {
-          "url": "https://yt3.ggpht.com/qW2pjGldlAz0DhruqhH-IzasUAxd84OtDRZoD-hNEmsqYOabDqVM45_XFQRuvgQ9DAWb8SXZuw=s800-c-k-c0x00ffffff-no-rj",
-          "width": 800,
-          "height": 800
-        }
-      },
-      "localized": {
-        "title": "Waqas Nasir",
-        "description": "My name is Waqas Nasir. This channel will serve as an educational channel that will help students or people with their difficulties in Mathematics. I also upload videos of different topics which is helpful for students, whenever I have time.\n"
-      },
-      "country": "PK"
-    },
-    "contentDetails": {
-      "relatedPlaylists": {
-        "likes": "",
-        "uploads": "UUX01N774wa9fGC9C4onEqPg"
-      }
-    },
-    "statistics": {
-      "viewCount": "70149862",
-      "subscriberCount": "767000",
-      "hiddenSubscriberCount": false,
-      "videoCount": "292"
-    },
-    "topicDetails": {
-      "topicIds": ["/m/01k8wb"],
-      "topicCategories": ["https://en.wikipedia.org/wiki/Knowledge"]
-    },
-    "status": {
-      "privacyStatus": "public",
-      "isLinked": true,
-      "longUploadsStatus": "longUploadsUnspecified",
-      "madeForKids": false
-    },
-    "brandingSettings": {
-      "channel": {
-        "title": "Waqas Nasir",
-        "description": "My name is Waqas Nasir. This channel will serve as an educational channel that will help students or people with their difficulties in Mathematics. I also upload videos of different topics which is helpful for students, whenever I have time.\n",
-        "keywords": "\"waqas nasir\" \"Waqas nasir math\" \"9th class math\" \"10th class math\" \"waqas nasir academy\"",
-        "unsubscribedTrailer": "_olk6W8zpkA",
-        "country": "PK"
-      },
-      "image": {
-        "bannerExternalUrl": "https://yt3.googleusercontent.com/moRnn7VlpIkCcheRHv0PWTWtIsWQI3LviTaJKfcrWxHANGyH8JrVtH4YsyJfNxLTEMcy7C8-Qg"
-      }
-    }
-  },
-  "playlists": [
-    {
-      "kind": "youtube#playlist",
-      "etag": "WmA8tOsoxBA6mE9TYJVY_VHm_SM",
-      "id": "PL-xR7IhXrb4VNUwNPM1iOliloffIp8R95",
-      "snippet": {
-        "publishedAt": "2026-04-30T21:51:49.634298Z",
-        "channelId": "UCX01N774wa9fGC9C4onEqPg",
-        "title": "10th Math New Book 2026 - PTB",
-        "description": "This is the 10th class new math book 2026 course. This course have all the videos of new 10th class math book 2026 of Punjab board. All videos recorded by Waqas Nasir.",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/_k_Sj7MmhVA/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/_k_Sj7MmhVA/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/_k_Sj7MmhVA/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/_k_Sj7MmhVA/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/_k_Sj7MmhVA/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
+        "statistics": {
+            "viewCount": "70171513",
+            "subscriberCount": "767000",
+            "hiddenSubscriberCount": false,
+            "videoCount": "292"
         },
-        "channelTitle": "Waqas Nasir",
-        "defaultLanguage": "ur",
-        "localized": {
-          "title": "10th Math New Book 2026 - PTB",
-          "description": "This is the 10th class new math book 2026 course. This course have all the videos of new 10th class math book 2026 of Punjab board. All videos recorded by Waqas Nasir."
-        }
-      },
-      "status": {
-        "privacyStatus": "public"
-      },
-      "contentDetails": {
-        "itemCount": 22
-      },
-      "player": {
-        "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4VNUwNPM1iOliloffIp8R95\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
-      },
-      "localizations": {
-        "ur": {
-          "title": "10th Math New Book 2026 - PTB",
-          "description": "This is the 10th class new math book 2026 course. This course have all the videos of new 10th class math book 2026 of Punjab board. All videos recorded by Waqas Nasir."
-        }
-      }
-    },
-    {
-      "kind": "youtube#playlist",
-      "etag": "62xsvyQH9LiY4oAfVeY23RMgMKA",
-      "id": "PL-xR7IhXrb4Uf5mEnPmLczvSH7eu59K-A",
-      "snippet": {
-        "publishedAt": "2026-01-22T18:51:54.898579Z",
-        "channelId": "UCX01N774wa9fGC9C4onEqPg",
-        "title": "10th Class - Federal Board Math",
-        "description": "This course consist of all those video who belongs to 10th class of federal board or national book foundation NBF. This is new book which is started from 2025.",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/EstacK6M4Jw/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/EstacK6M4Jw/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/EstacK6M4Jw/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/EstacK6M4Jw/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/EstacK6M4Jw/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
+        "topicDetails": {
+            "topicIds": [
+                "/m/01k8wb"
+            ],
+            "topicCategories": [
+                "https://en.wikipedia.org/wiki/Knowledge"
+            ]
         },
-        "channelTitle": "Waqas Nasir",
-        "localized": {
-          "title": "10th Class - Federal Board Math",
-          "description": "This course consist of all those video who belongs to 10th class of federal board or national book foundation NBF. This is new book which is started from 2025."
-        }
-      },
-      "status": {
-        "privacyStatus": "public"
-      },
-      "contentDetails": {
-        "itemCount": 5
-      },
-      "player": {
-        "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4Uf5mEnPmLczvSH7eu59K-A\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
-      }
-    },
-    {
-      "kind": "youtube#playlist",
-      "etag": "fnvbVOuskyjZ-gk_VxWk-mTq4mc",
-      "id": "PL-xR7IhXrb4VO5vHw4nVCFVgJxhDW627I",
-      "snippet": {
-        "publishedAt": "2025-08-29T11:57:53.095079Z",
-        "channelId": "UCX01N774wa9fGC9C4onEqPg",
-        "title": "11 Class Math New Book 2025",
-        "description": "this book belongs to Punjab board,",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/YHH5batjzKU/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/YHH5batjzKU/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/YHH5batjzKU/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/YHH5batjzKU/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/YHH5batjzKU/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          },
-          "fhd": {
-            "url": "https://i.ytimg.com/vi/YHH5batjzKU/fhddefault.jpg",
-            "width": 1920,
-            "height": 1080
-          }
+        "status": {
+            "privacyStatus": "public",
+            "isLinked": true,
+            "longUploadsStatus": "longUploadsUnspecified",
+            "madeForKids": false
         },
-        "channelTitle": "Waqas Nasir",
-        "localized": {
-          "title": "11 Class Math New Book 2025",
-          "description": "this book belongs to Punjab board,"
+        "brandingSettings": {
+            "channel": {
+                "title": "Waqas Nasir",
+                "description": "My name is Waqas Nasir. This channel will serve as an educational channel that will help students or people with their difficulties in Mathematics. I also upload videos of different topics which is helpful for students, whenever I have time.\n",
+                "keywords": "\"waqas nasir\" \"Waqas nasir math\" \"9th class math\" \"10th class math\" \"waqas nasir academy\"",
+                "unsubscribedTrailer": "_olk6W8zpkA",
+                "country": "PK"
+            },
+            "image": {
+                "bannerExternalUrl": "https://yt3.googleusercontent.com/moRnn7VlpIkCcheRHv0PWTWtIsWQI3LviTaJKfcrWxHANGyH8JrVtH4YsyJfNxLTEMcy7C8-Qg"
+            }
         }
-      },
-      "status": {
-        "privacyStatus": "public"
-      },
-      "contentDetails": {
-        "itemCount": 3
-      },
-      "player": {
-        "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4VO5vHw4nVCFVgJxhDW627I\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
-      }
     },
-    {
-      "kind": "youtube#playlist",
-      "etag": "xXf7tfhGrOQV3AzlXMjWcqGufX0",
-      "id": "PL-xR7IhXrb4UBAUKmUtPf6Wmh-8eKkOfV",
-      "snippet": {
-        "publishedAt": "2025-08-20T00:06:12.047975Z",
-        "channelId": "UCX01N774wa9fGC9C4onEqPg",
-        "title": "9th Math - All Exercises",
-        "description": "This course belongs to Punjab board, 9th class math which have all complete exercises.",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/lmeHNnfd45o/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/lmeHNnfd45o/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/lmeHNnfd45o/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/lmeHNnfd45o/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/lmeHNnfd45o/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          },
-          "fhd": {
-            "url": "https://i.ytimg.com/vi/lmeHNnfd45o/fhddefault.jpg",
-            "width": 1920,
-            "height": 1080
-          }
+    "playlists": [
+        {
+            "kind": "youtube#playlist",
+            "etag": "Q9oyzqBC2vjhsotT9YD1t292XOo",
+            "id": "UUX01N774wa9fGC9C4onEqPg",
+            "snippet": {
+                "publishedAt": "2018-10-01T18:49:52Z",
+                "channelId": "UCX01N774wa9fGC9C4onEqPg",
+                "title": "Waqas Nasir - Uploads",
+                "description": "All uploaded videos by Waqas Nasir.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://yt3.ggpht.com/qW2pjGldlAz0DhruqhH-IzasUAxd84OtDRZoD-hNEmsqYOabDqVM45_XFQRuvgQ9DAWb8SXZuw=s88-c-k-c0x00ffffff-no-rj",
+                        "width": 88,
+                        "height": 88
+                    },
+                    "medium": {
+                        "url": "https://yt3.ggpht.com/qW2pjGldlAz0DhruqhH-IzasUAxd84OtDRZoD-hNEmsqYOabDqVM45_XFQRuvgQ9DAWb8SXZuw=s240-c-k-c0x00ffffff-no-rj",
+                        "width": 240,
+                        "height": 240
+                    },
+                    "high": {
+                        "url": "https://yt3.ggpht.com/qW2pjGldlAz0DhruqhH-IzasUAxd84OtDRZoD-hNEmsqYOabDqVM45_XFQRuvgQ9DAWb8SXZuw=s800-c-k-c0x00ffffff-no-rj",
+                        "width": 800,
+                        "height": 800
+                    }
+                },
+                "channelTitle": "Waqas Nasir",
+                "localized": {
+                    "title": "Waqas Nasir - Uploads",
+                    "description": "All uploaded videos by Waqas Nasir."
+                }
+            },
+            "status": {
+                "privacyStatus": "public"
+            },
+            "contentDetails": {
+                "itemCount": 292
+            },
+            "player": {
+                "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"//www.youtube.com/embed/videoseries?list=UUX01N774wa9fGC9C4onEqPg\" frameborder=\"0\" allowfullscreen></iframe>"
+            }
         },
-        "channelTitle": "Waqas Nasir",
-        "localized": {
-          "title": "9th Math - All Exercises",
-          "description": "This course belongs to Punjab board, 9th class math which have all complete exercises."
-        }
-      },
-      "status": {
-        "privacyStatus": "public"
-      },
-      "contentDetails": {
-        "itemCount": 36
-      },
-      "player": {
-        "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4UBAUKmUtPf6Wmh-8eKkOfV\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
-      }
-    },
-    {
-      "kind": "youtube#playlist",
-      "etag": "T-NOxIxeDWhETwwa1shgy0QjRC4",
-      "id": "PL-xR7IhXrb4VXLhydXCr1Pes1bm-X0zcd",
-      "snippet": {
-        "publishedAt": "2024-09-15T01:04:35.411654Z",
-        "channelId": "UCX01N774wa9fGC9C4onEqPg",
-        "title": "9th - Federal Board Math - Exercise 1.1",
-        "description": "This playlist will consist of all exercises of 9th class math from national book foundation or we can say federal board math book.",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/HXsR6kHYMsI/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/HXsR6kHYMsI/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/HXsR6kHYMsI/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/HXsR6kHYMsI/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/HXsR6kHYMsI/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
+        {
+            "kind": "youtube#playlist",
+            "etag": "WmA8tOsoxBA6mE9TYJVY_VHm_SM",
+            "id": "PL-xR7IhXrb4VNUwNPM1iOliloffIp8R95",
+            "snippet": {
+                "publishedAt": "2026-04-30T21:51:49.634298Z",
+                "channelId": "UCX01N774wa9fGC9C4onEqPg",
+                "title": "10th Math New Book 2026 - PTB",
+                "description": "This is the 10th class new math book 2026 course. This course have all the videos of new 10th class math book 2026 of Punjab board. All videos recorded by Waqas Nasir.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/_k_Sj7MmhVA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/_k_Sj7MmhVA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/_k_Sj7MmhVA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/_k_Sj7MmhVA/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/_k_Sj7MmhVA/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Waqas Nasir",
+                "defaultLanguage": "ur",
+                "localized": {
+                    "title": "10th Math New Book 2026 - PTB",
+                    "description": "This is the 10th class new math book 2026 course. This course have all the videos of new 10th class math book 2026 of Punjab board. All videos recorded by Waqas Nasir."
+                }
+            },
+            "status": {
+                "privacyStatus": "public"
+            },
+            "contentDetails": {
+                "itemCount": 22
+            },
+            "player": {
+                "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4VNUwNPM1iOliloffIp8R95\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+            },
+            "localizations": {
+                "ur": {
+                    "title": "10th Math New Book 2026 - PTB",
+                    "description": "This is the 10th class new math book 2026 course. This course have all the videos of new 10th class math book 2026 of Punjab board. All videos recorded by Waqas Nasir."
+                }
+            }
         },
-        "channelTitle": "Waqas Nasir",
-        "localized": {
-          "title": "9th - Federal Board Math - Exercise 1.1",
-          "description": "This playlist will consist of all exercises of 9th class math from national book foundation or we can say federal board math book."
-        }
-      },
-      "status": {
-        "privacyStatus": "public"
-      },
-      "contentDetails": {
-        "itemCount": 21
-      },
-      "player": {
-        "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4VXLhydXCr1Pes1bm-X0zcd\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
-      }
-    },
-    {
-      "kind": "youtube#playlist",
-      "etag": "ke7N_7UMJB4_e3sSUHmU7zQkDds",
-      "id": "PL-xR7IhXrb4VunEPJqUpQE1rQHuEyGRc2",
-      "snippet": {
-        "publishedAt": "2024-05-19T14:28:02.758314Z",
-        "channelId": "UCX01N774wa9fGC9C4onEqPg",
-        "title": "12th Math",
-        "description": "(Punjab Board)",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/R4kIaX9r1VQ/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/R4kIaX9r1VQ/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/R4kIaX9r1VQ/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/R4kIaX9r1VQ/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/R4kIaX9r1VQ/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
+        {
+            "kind": "youtube#playlist",
+            "etag": "62xsvyQH9LiY4oAfVeY23RMgMKA",
+            "id": "PL-xR7IhXrb4Uf5mEnPmLczvSH7eu59K-A",
+            "snippet": {
+                "publishedAt": "2026-01-22T18:51:54.898579Z",
+                "channelId": "UCX01N774wa9fGC9C4onEqPg",
+                "title": "10th Class - Federal Board Math",
+                "description": "This course consist of all those video who belongs to 10th class of federal board or national book foundation NBF. This is new book which is started from 2025.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/EstacK6M4Jw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/EstacK6M4Jw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/EstacK6M4Jw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/EstacK6M4Jw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/EstacK6M4Jw/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Waqas Nasir",
+                "localized": {
+                    "title": "10th Class - Federal Board Math",
+                    "description": "This course consist of all those video who belongs to 10th class of federal board or national book foundation NBF. This is new book which is started from 2025."
+                }
+            },
+            "status": {
+                "privacyStatus": "public"
+            },
+            "contentDetails": {
+                "itemCount": 5
+            },
+            "player": {
+                "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4Uf5mEnPmLczvSH7eu59K-A\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+            }
         },
-        "channelTitle": "Waqas Nasir",
-        "localized": {
-          "title": "12th Math",
-          "description": "(Punjab Board)"
-        }
-      },
-      "status": {
-        "privacyStatus": "public"
-      },
-      "contentDetails": {
-        "itemCount": 1
-      },
-      "player": {
-        "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4VunEPJqUpQE1rQHuEyGRc2\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
-      }
-    },
-    {
-      "kind": "youtube#playlist",
-      "etag": "GyM6nKzrNQxlRE68OQ5WWbG4I8I",
-      "id": "PL-xR7IhXrb4XdXrHKWyBQMvgk-xE3fadV",
-      "snippet": {
-        "publishedAt": "2024-04-02T22:47:09.721069Z",
-        "channelId": "UCX01N774wa9fGC9C4onEqPg",
-        "title": "Shorts (Students)",
-        "description": "",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
-            "width": 480,
-            "height": 360
-          }
+        {
+            "kind": "youtube#playlist",
+            "etag": "fnvbVOuskyjZ-gk_VxWk-mTq4mc",
+            "id": "PL-xR7IhXrb4VO5vHw4nVCFVgJxhDW627I",
+            "snippet": {
+                "publishedAt": "2025-08-29T11:57:53.095079Z",
+                "channelId": "UCX01N774wa9fGC9C4onEqPg",
+                "title": "11 Class Math New Book 2025",
+                "description": "this book belongs to Punjab board,",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/YHH5batjzKU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/YHH5batjzKU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/YHH5batjzKU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/YHH5batjzKU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/YHH5batjzKU/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    },
+                    "fhd": {
+                        "url": "https://i.ytimg.com/vi/YHH5batjzKU/fhddefault.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                },
+                "channelTitle": "Waqas Nasir",
+                "localized": {
+                    "title": "11 Class Math New Book 2025",
+                    "description": "this book belongs to Punjab board,"
+                }
+            },
+            "status": {
+                "privacyStatus": "public"
+            },
+            "contentDetails": {
+                "itemCount": 3
+            },
+            "player": {
+                "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4VO5vHw4nVCFVgJxhDW627I\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+            }
         },
-        "channelTitle": "Waqas Nasir",
-        "localized": {
-          "title": "Shorts (Students)",
-          "description": ""
-        }
-      },
-      "status": {
-        "privacyStatus": "public"
-      },
-      "contentDetails": {
-        "itemCount": 0
-      },
-      "player": {
-        "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4XdXrHKWyBQMvgk-xE3fadV\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
-      }
-    },
-    {
-      "kind": "youtube#playlist",
-      "etag": "XifOh6PLlP3omOhCEgVV04BceG8",
-      "id": "PL-xR7IhXrb4VJvDJ2J2Fs4t4eehGp2W9g",
-      "snippet": {
-        "publishedAt": "2023-09-17T02:35:44.166437Z",
-        "channelId": "UCX01N774wa9fGC9C4onEqPg",
-        "title": "1st Year Math",
-        "description": "",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/nYi88V2h-uU/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/nYi88V2h-uU/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/nYi88V2h-uU/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/nYi88V2h-uU/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/nYi88V2h-uU/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
+        {
+            "kind": "youtube#playlist",
+            "etag": "xXf7tfhGrOQV3AzlXMjWcqGufX0",
+            "id": "PL-xR7IhXrb4UBAUKmUtPf6Wmh-8eKkOfV",
+            "snippet": {
+                "publishedAt": "2025-08-20T00:06:12.047975Z",
+                "channelId": "UCX01N774wa9fGC9C4onEqPg",
+                "title": "9th Math - All Exercises",
+                "description": "This course belongs to Punjab board, 9th class math which have all complete exercises.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/lmeHNnfd45o/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/lmeHNnfd45o/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/lmeHNnfd45o/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/lmeHNnfd45o/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/lmeHNnfd45o/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    },
+                    "fhd": {
+                        "url": "https://i.ytimg.com/vi/lmeHNnfd45o/fhddefault.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                },
+                "channelTitle": "Waqas Nasir",
+                "localized": {
+                    "title": "9th Math - All Exercises",
+                    "description": "This course belongs to Punjab board, 9th class math which have all complete exercises."
+                }
+            },
+            "status": {
+                "privacyStatus": "public"
+            },
+            "contentDetails": {
+                "itemCount": 36
+            },
+            "player": {
+                "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4UBAUKmUtPf6Wmh-8eKkOfV\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+            }
         },
-        "channelTitle": "Waqas Nasir",
-        "localized": {
-          "title": "1st Year Math",
-          "description": ""
-        }
-      },
-      "status": {
-        "privacyStatus": "public"
-      },
-      "contentDetails": {
-        "itemCount": 1
-      },
-      "player": {
-        "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4VJvDJ2J2Fs4t4eehGp2W9g\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
-      }
-    },
-    {
-      "kind": "youtube#playlist",
-      "etag": "0Cj6leIwJeTAVrWTkLu2Q4Pz_Wg",
-      "id": "PL-xR7IhXrb4X8KyKaobnw2qIH6bbkS0zU",
-      "snippet": {
-        "publishedAt": "2023-08-30T04:31:47.361451Z",
-        "channelId": "UCX01N774wa9fGC9C4onEqPg",
-        "title": "8th Class Math (New Book 2023)",
-        "description": "This book belongs to single national curriculum.",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/FGLycdhrEnU/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/FGLycdhrEnU/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/FGLycdhrEnU/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/FGLycdhrEnU/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/FGLycdhrEnU/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
+        {
+            "kind": "youtube#playlist",
+            "etag": "T-NOxIxeDWhETwwa1shgy0QjRC4",
+            "id": "PL-xR7IhXrb4VXLhydXCr1Pes1bm-X0zcd",
+            "snippet": {
+                "publishedAt": "2024-09-15T01:04:35.411654Z",
+                "channelId": "UCX01N774wa9fGC9C4onEqPg",
+                "title": "9th - Federal Board Math - Exercise 1.1",
+                "description": "This playlist will consist of all exercises of 9th class math from national book foundation or we can say federal board math book.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/HXsR6kHYMsI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/HXsR6kHYMsI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/HXsR6kHYMsI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/HXsR6kHYMsI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/HXsR6kHYMsI/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Waqas Nasir",
+                "localized": {
+                    "title": "9th - Federal Board Math - Exercise 1.1",
+                    "description": "This playlist will consist of all exercises of 9th class math from national book foundation or we can say federal board math book."
+                }
+            },
+            "status": {
+                "privacyStatus": "public"
+            },
+            "contentDetails": {
+                "itemCount": 21
+            },
+            "player": {
+                "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4VXLhydXCr1Pes1bm-X0zcd\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+            }
         },
-        "channelTitle": "Waqas Nasir",
-        "localized": {
-          "title": "8th Class Math (New Book 2023)",
-          "description": "This book belongs to single national curriculum."
-        }
-      },
-      "status": {
-        "privacyStatus": "public"
-      },
-      "contentDetails": {
-        "itemCount": 6
-      },
-      "player": {
-        "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4X8KyKaobnw2qIH6bbkS0zU\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
-      }
-    },
-    {
-      "kind": "youtube#playlist",
-      "etag": "r8fZIN0DhxRfXKLsGTInjIcPTPs",
-      "id": "PL-xR7IhXrb4Umev0nNkz-Gu24yFAZ8He2",
-      "snippet": {
-        "publishedAt": "2022-11-21T08:39:14.154443Z",
-        "channelId": "UCX01N774wa9fGC9C4onEqPg",
-        "title": "Topics",
-        "description": "",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/-b6Y0-6LhRc/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/-b6Y0-6LhRc/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/-b6Y0-6LhRc/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/-b6Y0-6LhRc/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/-b6Y0-6LhRc/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
+        {
+            "kind": "youtube#playlist",
+            "etag": "ke7N_7UMJB4_e3sSUHmU7zQkDds",
+            "id": "PL-xR7IhXrb4VunEPJqUpQE1rQHuEyGRc2",
+            "snippet": {
+                "publishedAt": "2024-05-19T14:28:02.758314Z",
+                "channelId": "UCX01N774wa9fGC9C4onEqPg",
+                "title": "12th Math",
+                "description": "(Punjab Board)",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/R4kIaX9r1VQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/R4kIaX9r1VQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/R4kIaX9r1VQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/R4kIaX9r1VQ/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/R4kIaX9r1VQ/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Waqas Nasir",
+                "localized": {
+                    "title": "12th Math",
+                    "description": "(Punjab Board)"
+                }
+            },
+            "status": {
+                "privacyStatus": "public"
+            },
+            "contentDetails": {
+                "itemCount": 1
+            },
+            "player": {
+                "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4VunEPJqUpQE1rQHuEyGRc2\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+            }
         },
-        "channelTitle": "Waqas Nasir",
-        "localized": {
-          "title": "Topics",
-          "description": ""
-        }
-      },
-      "status": {
-        "privacyStatus": "public"
-      },
-      "contentDetails": {
-        "itemCount": 6
-      },
-      "player": {
-        "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4Umev0nNkz-Gu24yFAZ8He2\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
-      }
-    },
-    {
-      "kind": "youtube#playlist",
-      "etag": "NszlA50YAkmsYDJYz6yREstMe3s",
-      "id": "PL-xR7IhXrb4Xg6v69kqxZOmYlCEyDw1H0",
-      "snippet": {
-        "publishedAt": "2022-07-29T05:52:49.393686Z",
-        "channelId": "UCX01N774wa9fGC9C4onEqPg",
-        "title": "Educational knowledge",
-        "description": "",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/OU4i9YBeLbc/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/OU4i9YBeLbc/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/OU4i9YBeLbc/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/OU4i9YBeLbc/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/OU4i9YBeLbc/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
+        {
+            "kind": "youtube#playlist",
+            "etag": "GyM6nKzrNQxlRE68OQ5WWbG4I8I",
+            "id": "PL-xR7IhXrb4XdXrHKWyBQMvgk-xE3fadV",
+            "snippet": {
+                "publishedAt": "2024-04-02T22:47:09.721069Z",
+                "channelId": "UCX01N774wa9fGC9C4onEqPg",
+                "title": "Shorts (Students)",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Waqas Nasir",
+                "localized": {
+                    "title": "Shorts (Students)",
+                    "description": ""
+                }
+            },
+            "status": {
+                "privacyStatus": "public"
+            },
+            "contentDetails": {
+                "itemCount": 0
+            },
+            "player": {
+                "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4XdXrHKWyBQMvgk-xE3fadV\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+            }
         },
-        "channelTitle": "Waqas Nasir",
-        "localized": {
-          "title": "Educational knowledge",
-          "description": ""
-        }
-      },
-      "status": {
-        "privacyStatus": "public"
-      },
-      "contentDetails": {
-        "itemCount": 5
-      },
-      "player": {
-        "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4Xg6v69kqxZOmYlCEyDw1H0\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
-      }
-    },
-    {
-      "kind": "youtube#playlist",
-      "etag": "Ccd_QC__7y_TseEUN8aUmHolrhU",
-      "id": "PL-xR7IhXrb4WxkDcLTzTBDiUH5agOrhQN",
-      "snippet": {
-        "publishedAt": "2022-07-21T16:06:40.697273Z",
-        "channelId": "UCX01N774wa9fGC9C4onEqPg",
-        "title": "My Vlogs",
-        "description": "",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/QMV6HALeVYg/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/QMV6HALeVYg/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/QMV6HALeVYg/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/QMV6HALeVYg/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/QMV6HALeVYg/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
+        {
+            "kind": "youtube#playlist",
+            "etag": "XifOh6PLlP3omOhCEgVV04BceG8",
+            "id": "PL-xR7IhXrb4VJvDJ2J2Fs4t4eehGp2W9g",
+            "snippet": {
+                "publishedAt": "2023-09-17T02:35:44.166437Z",
+                "channelId": "UCX01N774wa9fGC9C4onEqPg",
+                "title": "1st Year Math",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/nYi88V2h-uU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/nYi88V2h-uU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/nYi88V2h-uU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/nYi88V2h-uU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/nYi88V2h-uU/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Waqas Nasir",
+                "localized": {
+                    "title": "1st Year Math",
+                    "description": ""
+                }
+            },
+            "status": {
+                "privacyStatus": "public"
+            },
+            "contentDetails": {
+                "itemCount": 1
+            },
+            "player": {
+                "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4VJvDJ2J2Fs4t4eehGp2W9g\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+            }
         },
-        "channelTitle": "Waqas Nasir",
-        "localized": {
-          "title": "My Vlogs",
-          "description": ""
-        }
-      },
-      "status": {
-        "privacyStatus": "public"
-      },
-      "contentDetails": {
-        "itemCount": 7
-      },
-      "player": {
-        "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4WxkDcLTzTBDiUH5agOrhQN\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
-      }
-    },
-    {
-      "kind": "youtube#playlist",
-      "etag": "hDLi6waF8a1SceCfsGHcJqnQMiY",
-      "id": "PL-xR7IhXrb4WvD7FPJBTSoa_tnBjT2cf1",
-      "snippet": {
-        "publishedAt": "2022-07-21T15:17:47.86131Z",
-        "channelId": "UCX01N774wa9fGC9C4onEqPg",
-        "title": "Physics - 9th Class",
-        "description": "",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/2f0ZH2-CiOQ/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/2f0ZH2-CiOQ/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/2f0ZH2-CiOQ/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/2f0ZH2-CiOQ/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/2f0ZH2-CiOQ/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
+        {
+            "kind": "youtube#playlist",
+            "etag": "0Cj6leIwJeTAVrWTkLu2Q4Pz_Wg",
+            "id": "PL-xR7IhXrb4X8KyKaobnw2qIH6bbkS0zU",
+            "snippet": {
+                "publishedAt": "2023-08-30T04:31:47.361451Z",
+                "channelId": "UCX01N774wa9fGC9C4onEqPg",
+                "title": "8th Class Math (New Book 2023)",
+                "description": "This book belongs to single national curriculum.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/FGLycdhrEnU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/FGLycdhrEnU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/FGLycdhrEnU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/FGLycdhrEnU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/FGLycdhrEnU/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Waqas Nasir",
+                "localized": {
+                    "title": "8th Class Math (New Book 2023)",
+                    "description": "This book belongs to single national curriculum."
+                }
+            },
+            "status": {
+                "privacyStatus": "public"
+            },
+            "contentDetails": {
+                "itemCount": 6
+            },
+            "player": {
+                "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4X8KyKaobnw2qIH6bbkS0zU\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+            }
         },
-        "channelTitle": "Waqas Nasir",
-        "localized": {
-          "title": "Physics - 9th Class",
-          "description": ""
-        }
-      },
-      "status": {
-        "privacyStatus": "public"
-      },
-      "contentDetails": {
-        "itemCount": 28
-      },
-      "player": {
-        "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4WvD7FPJBTSoa_tnBjT2cf1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
-      }
-    },
-    {
-      "kind": "youtube#playlist",
-      "etag": "Y7OQ_ig62u7ld17rcdmwOaXraOo",
-      "id": "PL-xR7IhXrb4WWD2Jh1ufHCM8V7CEOqTb-",
-      "snippet": {
-        "publishedAt": "2020-06-19T17:58:02.37054Z",
-        "channelId": "UCX01N774wa9fGC9C4onEqPg",
-        "title": "10th Class Math - Punjab Board",
-        "description": "",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/fPsP0CI-Auk/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/fPsP0CI-Auk/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/fPsP0CI-Auk/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/fPsP0CI-Auk/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/fPsP0CI-Auk/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
+        {
+            "kind": "youtube#playlist",
+            "etag": "r8fZIN0DhxRfXKLsGTInjIcPTPs",
+            "id": "PL-xR7IhXrb4Umev0nNkz-Gu24yFAZ8He2",
+            "snippet": {
+                "publishedAt": "2022-11-21T08:39:14.154443Z",
+                "channelId": "UCX01N774wa9fGC9C4onEqPg",
+                "title": "Topics",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/-b6Y0-6LhRc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/-b6Y0-6LhRc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/-b6Y0-6LhRc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/-b6Y0-6LhRc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/-b6Y0-6LhRc/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Waqas Nasir",
+                "localized": {
+                    "title": "Topics",
+                    "description": ""
+                }
+            },
+            "status": {
+                "privacyStatus": "public"
+            },
+            "contentDetails": {
+                "itemCount": 6
+            },
+            "player": {
+                "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4Umev0nNkz-Gu24yFAZ8He2\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+            }
         },
-        "channelTitle": "Waqas Nasir",
-        "localized": {
-          "title": "10th Class Math - Punjab Board",
-          "description": ""
-        }
-      },
-      "status": {
-        "privacyStatus": "public"
-      },
-      "contentDetails": {
-        "itemCount": 39
-      },
-      "player": {
-        "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4WWD2Jh1ufHCM8V7CEOqTb-\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
-      }
-    },
-    {
-      "kind": "youtube#playlist",
-      "etag": "dkCco1uvQbxtCPAXQ_91wSRhRxA",
-      "id": "PL-xR7IhXrb4XC0yMg1uos1ykly81VVgez",
-      "snippet": {
-        "publishedAt": "2019-02-03T14:39:20.407246Z",
-        "channelId": "UCX01N774wa9fGC9C4onEqPg",
-        "title": "9th & 10th Class Physics Numerical",
-        "description": "",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/ujyA9aRStYc/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/ujyA9aRStYc/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/ujyA9aRStYc/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/ujyA9aRStYc/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/ujyA9aRStYc/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
+        {
+            "kind": "youtube#playlist",
+            "etag": "NszlA50YAkmsYDJYz6yREstMe3s",
+            "id": "PL-xR7IhXrb4Xg6v69kqxZOmYlCEyDw1H0",
+            "snippet": {
+                "publishedAt": "2022-07-29T05:52:49.393686Z",
+                "channelId": "UCX01N774wa9fGC9C4onEqPg",
+                "title": "Educational knowledge",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/OU4i9YBeLbc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/OU4i9YBeLbc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/OU4i9YBeLbc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/OU4i9YBeLbc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/OU4i9YBeLbc/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Waqas Nasir",
+                "localized": {
+                    "title": "Educational knowledge",
+                    "description": ""
+                }
+            },
+            "status": {
+                "privacyStatus": "public"
+            },
+            "contentDetails": {
+                "itemCount": 5
+            },
+            "player": {
+                "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4Xg6v69kqxZOmYlCEyDw1H0\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+            }
         },
-        "channelTitle": "Waqas Nasir",
-        "localized": {
-          "title": "9th & 10th Class Physics Numerical",
-          "description": ""
-        }
-      },
-      "status": {
-        "privacyStatus": "public"
-      },
-      "contentDetails": {
-        "itemCount": 4
-      },
-      "player": {
-        "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4XC0yMg1uos1ykly81VVgez\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
-      }
-    },
-    {
-      "kind": "youtube#playlist",
-      "etag": "xojoF4MbJCKh8Q_kuJh2Ti3uo5M",
-      "id": "PL-xR7IhXrb4WMaaTiKQBnp0e6C0_0X9Ma",
-      "snippet": {
-        "publishedAt": "2019-01-20T14:36:40.655573Z",
-        "channelId": "UCX01N774wa9fGC9C4onEqPg",
-        "title": "English Grammar",
-        "description": "",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/B94cyY49e4g/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/B94cyY49e4g/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/B94cyY49e4g/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/B94cyY49e4g/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/B94cyY49e4g/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
+        {
+            "kind": "youtube#playlist",
+            "etag": "Ccd_QC__7y_TseEUN8aUmHolrhU",
+            "id": "PL-xR7IhXrb4WxkDcLTzTBDiUH5agOrhQN",
+            "snippet": {
+                "publishedAt": "2022-07-21T16:06:40.697273Z",
+                "channelId": "UCX01N774wa9fGC9C4onEqPg",
+                "title": "My Vlogs",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/QMV6HALeVYg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/QMV6HALeVYg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/QMV6HALeVYg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/QMV6HALeVYg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/QMV6HALeVYg/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Waqas Nasir",
+                "localized": {
+                    "title": "My Vlogs",
+                    "description": ""
+                }
+            },
+            "status": {
+                "privacyStatus": "public"
+            },
+            "contentDetails": {
+                "itemCount": 7
+            },
+            "player": {
+                "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4WxkDcLTzTBDiUH5agOrhQN\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+            }
         },
-        "channelTitle": "Waqas Nasir",
-        "localized": {
-          "title": "English Grammar",
-          "description": ""
-        }
-      },
-      "status": {
-        "privacyStatus": "public"
-      },
-      "contentDetails": {
-        "itemCount": 9
-      },
-      "player": {
-        "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4WMaaTiKQBnp0e6C0_0X9Ma\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
-      }
-    },
-    {
-      "kind": "youtube#playlist",
-      "etag": "ocQ2S_a1Xg8avM1sA1igkWSphQA",
-      "id": "PL-xR7IhXrb4XdrJDpWXjdI-YheoF2VxLq",
-      "snippet": {
-        "publishedAt": "2018-11-18T13:37:02.340387Z",
-        "channelId": "UCX01N774wa9fGC9C4onEqPg",
-        "title": "9th Class Math Exercises",
-        "description": "In this playlist you will see all the videos of math of  class 9th Punjab board and federal board.",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/HACa4b02mu8/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/HACa4b02mu8/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/HACa4b02mu8/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/HACa4b02mu8/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/HACa4b02mu8/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
+        {
+            "kind": "youtube#playlist",
+            "etag": "hDLi6waF8a1SceCfsGHcJqnQMiY",
+            "id": "PL-xR7IhXrb4WvD7FPJBTSoa_tnBjT2cf1",
+            "snippet": {
+                "publishedAt": "2022-07-21T15:17:47.86131Z",
+                "channelId": "UCX01N774wa9fGC9C4onEqPg",
+                "title": "Physics - 9th Class",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/2f0ZH2-CiOQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/2f0ZH2-CiOQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/2f0ZH2-CiOQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/2f0ZH2-CiOQ/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/2f0ZH2-CiOQ/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Waqas Nasir",
+                "localized": {
+                    "title": "Physics - 9th Class",
+                    "description": ""
+                }
+            },
+            "status": {
+                "privacyStatus": "public"
+            },
+            "contentDetails": {
+                "itemCount": 28
+            },
+            "player": {
+                "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4WvD7FPJBTSoa_tnBjT2cf1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+            }
         },
-        "channelTitle": "Waqas Nasir",
-        "localized": {
-          "title": "9th Class Math Exercises",
-          "description": "In this playlist you will see all the videos of math of  class 9th Punjab board and federal board."
+        {
+            "kind": "youtube#playlist",
+            "etag": "Y7OQ_ig62u7ld17rcdmwOaXraOo",
+            "id": "PL-xR7IhXrb4WWD2Jh1ufHCM8V7CEOqTb-",
+            "snippet": {
+                "publishedAt": "2020-06-19T17:58:02.37054Z",
+                "channelId": "UCX01N774wa9fGC9C4onEqPg",
+                "title": "10th Class Math - Punjab Board",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/fPsP0CI-Auk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/fPsP0CI-Auk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/fPsP0CI-Auk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/fPsP0CI-Auk/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/fPsP0CI-Auk/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Waqas Nasir",
+                "localized": {
+                    "title": "10th Class Math - Punjab Board",
+                    "description": ""
+                }
+            },
+            "status": {
+                "privacyStatus": "public"
+            },
+            "contentDetails": {
+                "itemCount": 39
+            },
+            "player": {
+                "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4WWD2Jh1ufHCM8V7CEOqTb-\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "dkCco1uvQbxtCPAXQ_91wSRhRxA",
+            "id": "PL-xR7IhXrb4XC0yMg1uos1ykly81VVgez",
+            "snippet": {
+                "publishedAt": "2019-02-03T14:39:20.407246Z",
+                "channelId": "UCX01N774wa9fGC9C4onEqPg",
+                "title": "9th & 10th Class Physics Numerical",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ujyA9aRStYc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ujyA9aRStYc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ujyA9aRStYc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/ujyA9aRStYc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/ujyA9aRStYc/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Waqas Nasir",
+                "localized": {
+                    "title": "9th & 10th Class Physics Numerical",
+                    "description": ""
+                }
+            },
+            "status": {
+                "privacyStatus": "public"
+            },
+            "contentDetails": {
+                "itemCount": 4
+            },
+            "player": {
+                "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4XC0yMg1uos1ykly81VVgez\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "xojoF4MbJCKh8Q_kuJh2Ti3uo5M",
+            "id": "PL-xR7IhXrb4WMaaTiKQBnp0e6C0_0X9Ma",
+            "snippet": {
+                "publishedAt": "2019-01-20T14:36:40.655573Z",
+                "channelId": "UCX01N774wa9fGC9C4onEqPg",
+                "title": "English Grammar",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/B94cyY49e4g/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/B94cyY49e4g/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/B94cyY49e4g/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/B94cyY49e4g/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/B94cyY49e4g/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Waqas Nasir",
+                "localized": {
+                    "title": "English Grammar",
+                    "description": ""
+                }
+            },
+            "status": {
+                "privacyStatus": "public"
+            },
+            "contentDetails": {
+                "itemCount": 9
+            },
+            "player": {
+                "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4WMaaTiKQBnp0e6C0_0X9Ma\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "ocQ2S_a1Xg8avM1sA1igkWSphQA",
+            "id": "PL-xR7IhXrb4XdrJDpWXjdI-YheoF2VxLq",
+            "snippet": {
+                "publishedAt": "2018-11-18T13:37:02.340387Z",
+                "channelId": "UCX01N774wa9fGC9C4onEqPg",
+                "title": "9th Class Math Exercises",
+                "description": "In this playlist you will see all the videos of math of  class 9th Punjab board and federal board.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/HACa4b02mu8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/HACa4b02mu8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/HACa4b02mu8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/HACa4b02mu8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/HACa4b02mu8/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Waqas Nasir",
+                "localized": {
+                    "title": "9th Class Math Exercises",
+                    "description": "In this playlist you will see all the videos of math of  class 9th Punjab board and federal board."
+                }
+            },
+            "status": {
+                "privacyStatus": "public"
+            },
+            "contentDetails": {
+                "itemCount": 52
+            },
+            "player": {
+                "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4XdrJDpWXjdI-YheoF2VxLq\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+            }
         }
-      },
-      "status": {
-        "privacyStatus": "public"
-      },
-      "contentDetails": {
-        "itemCount": 52
-      },
-      "player": {
-        "embedHtml": "<iframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PL-xR7IhXrb4XdrJDpWXjdI-YheoF2VxLq\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
-      }
-    }
-  ],
-  "totalPlaylists": 17,
-  "keywords": [
-    "waqas nasir",
-    "Waqas nasir math",
-    "9th class math",
-    "10th class math",
-    "waqas nasir academy"
-  ]
+    ],
+    "totalPlaylists": 18,
+    "keywords": [
+        "waqas nasir",
+        "Waqas nasir math",
+        "9th class math",
+        "10th class math",
+        "waqas nasir academy"
+    ]
 }
