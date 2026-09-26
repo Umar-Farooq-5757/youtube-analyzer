@@ -26,6 +26,9 @@ interface AppContextType {
   getDurationForDifferentSpeeds: (isoDuration: string, speed: number) => string;
   isLoading: boolean;
   setIsLoading: (value: boolean) => void;
+  error: {
+    message: string;
+  };
 }
 
 const AppContext = createContext<AppContextType | undefined>(undefined);
@@ -38,12 +41,14 @@ export const AppContextProvider: React.FC<{ children: ReactNode }> = ({
   const [videoData, setVideoData] = useState<any>(null);
   const [channelData, setChannelData] = useState<any>(null);
   const [playlistData, setPlaylistData] = useState<any>(null);
-  const [isLoading, setIsLoading] = useState<boolean>(true);
+  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [error, setError] = useState<{ message: string }>({ message: "" });
 
   const handleAnalyze = async (youtubeUrl: string) => {
     const { type, id } = parseYouTubeUrl(youtubeUrl);
     if (!id) {
       console.error("Invalid YouTube URL");
+      setError({ message: "Invalid YouTube URL" });
       return;
     }
     setIsLoading(true);
@@ -90,6 +95,7 @@ export const AppContextProvider: React.FC<{ children: ReactNode }> = ({
       }
     } catch (err: any) {
       console.error("Failed to fetch YouTube data:", err);
+      setError({ message: "Failed to fetch YouTube data" });
     } finally {
       setIsLoading(false);
     }
@@ -147,6 +153,7 @@ export const AppContextProvider: React.FC<{ children: ReactNode }> = ({
         getDurationForDifferentSpeeds,
         isLoading,
         setIsLoading,
+        error,
       }}>
       {children}
     </AppContext.Provider>

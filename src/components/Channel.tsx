@@ -7,7 +7,7 @@ import moment from "moment";
 import { TbLoader2 } from "react-icons/tb";
 
 const Channel: React.FC = () => {
-  const { handleAnalyze, beautifyBigNumber, isLoading, channelData } =
+  const { handleAnalyze, beautifyBigNumber, isLoading, channelData, error } =
     useAppContext();
   const [inputValue, setInputValue] = useState<string>("");
 
@@ -44,17 +44,21 @@ const Channel: React.FC = () => {
           </p>
         </div>
         {!channelData && (
-          <div className="flex-1 flex items-center justify-center gap-2 flex-col opacity-40">
-            {!isLoading ? (
-              <>
-                <p>No Data Available.</p>
-                <p>Enter a YouTube Channel URL to start analyzing.</p>
-              </>
-            ) : (
-              <>
+          <div className="flex-1 flex items-center justify-center gap-2 flex-col">
+            {isLoading ? (
+              <div className="opacity-40">
                 <TbLoader2 className="animate-spin size-8" />
                 <p>loading...</p>
-              </>
+              </div>
+            ) : error.message ? (
+              <div className="text-red-500 text-lg opacity-100">
+                {error.message}
+              </div>
+            ) : (
+              <div className="opacity-40">
+                <p>No Data Available.</p>
+                <p>Enter a YouTube Channel URL to start analyzing.</p>
+              </div>
             )}
           </div>
         )}

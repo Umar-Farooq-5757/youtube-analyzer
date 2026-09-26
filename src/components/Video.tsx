@@ -13,6 +13,7 @@ const Video: React.FC = () => {
     getDurationForDifferentSpeeds,
     videoData,
     isLoading,
+    error,
   } = useAppContext();
   const [inputValue, setInputValue] = useState<string>("");
 
@@ -56,17 +57,21 @@ const Video: React.FC = () => {
           </p>
         </div>
         {!videoData && (
-          <div className="flex-1 flex items-center justify-center gap-2 flex-col opacity-40">
-            {!isLoading ? (
-              <>
-                <p>No Data Available.</p>
-                <p>Enter a YouTube Video URL to start analyzing.</p>
-              </>
-            ) : (
-              <>
+          <div className="flex-1 flex items-center justify-center gap-2 flex-col">
+            {isLoading ? (
+              <div className="opacity-40">
                 <TbLoader2 className="animate-spin size-8" />
                 <p>loading...</p>
-              </>
+              </div>
+            ) : error.message ? (
+              <div className="text-red-500 text-lg opacity-100">
+                {error.message}
+              </div>
+            ) : (
+              <div className="opacity-40">
+                <p>No Data Available.</p>
+                <p>Enter a YouTube Video URL to start analyzing.</p>
+              </div>
             )}
           </div>
         )}

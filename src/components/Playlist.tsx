@@ -8,7 +8,7 @@ import VideosList from "./VideosList";
 import { TbLoader2 } from "react-icons/tb";
 
 const Playlist: React.FC = () => {
-  const { handleAnalyze, beautifyBigNumber, isLoading, playlistData } =
+  const { handleAnalyze, beautifyBigNumber, isLoading, playlistData, error } =
     useAppContext();
   const [inputValue, setInputValue] = useState<string>("");
   return (
@@ -46,17 +46,21 @@ const Playlist: React.FC = () => {
           </p>
         </div>
         {!playlistData && (
-          <div className="flex-1 flex items-center justify-center gap-2 flex-col opacity-40">
-            {!isLoading ? (
-              <>
-                <p>No Data Available.</p>
-                <p>Enter a YouTube Playlist URL to start analyzing.</p>
-              </>
-            ) : (
-              <>
+          <div className="flex-1 flex items-center justify-center gap-2 flex-col">
+            {isLoading ? (
+              <div className="opacity-40">
                 <TbLoader2 className="animate-spin size-8" />
                 <p>loading...</p>
-              </>
+              </div>
+            ) : error.message ? (
+              <div className="text-red-500 text-lg opacity-100">
+                {error.message}
+              </div>
+            ) : (
+              <div className="opacity-40">
+                <p>No Data Available.</p>
+                <p>Enter a YouTube Playlist URL to start analyzing.</p>
+              </div>
             )}
           </div>
         )}
