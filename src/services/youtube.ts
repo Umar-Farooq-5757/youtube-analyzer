@@ -97,7 +97,6 @@ export const getAllPlaylistVideos = async <T = any>(
     }
     nextPageToken = response.nextPageToken;
   } while (nextPageToken);
-
   return allItems;
 };
 
@@ -106,12 +105,10 @@ export const getEnhancedPlaylistData = async (playlistId: string) => {
     getPlaylistDetails(playlistId),
     getAllPlaylistVideos(playlistId),
   ]);
-
   const playlistDetails = playlistResult.items?.[0];
   if (!playlistDetails) {
     throw new Error("Playlist not found");
   }
-
   if (rawPlaylistItems.length === 0) {
     return {
       details: playlistDetails,
@@ -144,7 +141,6 @@ export const getEnhancedPlaylistData = async (playlistId: string) => {
   const enhancedItems = rawPlaylistItems.map((item: any) => {
     const videoId = item.contentDetails?.videoId;
     const statsData = videoStatsMap.get(videoId) || {};
-
     return {
       ...item,
       statistics: statsData.statistics || {},
@@ -154,7 +150,6 @@ export const getEnhancedPlaylistData = async (playlistId: string) => {
       },
     };
   });
-
   return {
     details: playlistDetails,
     items: enhancedItems,

@@ -8,7 +8,7 @@ import { TbLoader2 } from "react-icons/tb";
 // import channelData from '../../structure/channelStructure.json'
 
 const Channel: React.FC = () => {
-  const { handleAnalyze, beautifyBigNumber,channelData, isLoading } =
+  const { handleAnalyze, beautifyBigNumber, isLoading,channelData } =
     useAppContext();
   const [inputValue, setInputValue] = useState<string>("");
 

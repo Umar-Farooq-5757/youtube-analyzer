@@ -65,16 +65,12 @@ export const AppContextProvider: React.FC<{ children: ReactNode }> = ({
         });
       } else if (type === "channel") {
         setSelected("channel");
-
         const channelResult = await getChannelDetails(id);
         const channel = channelResult.items[0];
-
         if (!channel) {
           throw new Error("Channel not found");
         }
-
         const playlistsData = await getChannelPlaylists(channel.id);
-
         const keywordsRaw = channel.brandingSettings?.channel?.keywords || "";
         const channelKeywords = keywordsRaw
           ? keywordsRaw

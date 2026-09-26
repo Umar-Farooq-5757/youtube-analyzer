@@ -9,7 +9,7 @@ import { TbLoader2 } from "react-icons/tb";
 // import playlistData from '../../structure/playlistStructure.json'
 
 const Playlist: React.FC = () => {
-  const { handleAnalyze, beautifyBigNumber, isLoading,playlistData } =
+  const { handleAnalyze, beautifyBigNumber,playlistData, isLoading } =
     useAppContext();
   const [inputValue, setInputValue] = useState<string>("");
   return (
