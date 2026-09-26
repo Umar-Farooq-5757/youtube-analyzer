@@ -4,13 +4,13 @@ import { useAppContext } from "../context/AppContext";
 import { useState } from "react";
 import StatCard from "./StatCard";
 import moment from "moment";
+import data from '../../structure/videoStructure.json'
 
 const Video: React.FC = () => {
   const {
     handleAnalyze,
     beautifyBigNumber,
     getDurationForDifferentSpeeds,
-    data,
   } = useAppContext();
   const [inputValue, setInputValue] = useState<string>("");
 
@@ -97,7 +97,7 @@ const Video: React.FC = () => {
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
-                className="w-full h-100 rounded-md"
+                className="w-full h-120 rounded-md"
               />
             </div>
             {/* Stat cards */}

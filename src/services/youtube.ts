@@ -87,15 +87,78 @@ export const getChannelPlaylists = async <T = any>(
   });
 };
 
-export const getChannelUploads = async <T = any>(
-  uploadsPlaylistId: string,
-  pageToken: string = "",
-): Promise<T> => {
-  const params: Record<string, string> = {
-    part: "snippet,contentDetails,status",
-    playlistId: uploadsPlaylistId,
-    maxResults: "50",
+export const getAllPlaylistVideos = async <T = any>(
+  playlistId: string,
+): Promise<T[]> => {
+  let allItems: any[] = [];
+  let nextPageToken: string | undefined = "";
+  do {
+    const response: any = await getPlaylistVideos(playlistId, nextPageToken);
+    if (response.items) {
+      allItems = allItems.concat(response.items);
+    }
+    nextPageToken = response.nextPageToken;
+  } while (nextPageToken);
+
+  return allItems;
+};
+
+export const getEnhancedPlaylistData = async (playlistId: string) => {
+  const [playlistResult, rawPlaylistItems] = await Promise.all([
+    getPlaylistDetails(playlistId),
+    getAllPlaylistVideos(playlistId),
+  ]);
+
+  const playlistDetails = playlistResult.items?.[0];
+  if (!playlistDetails) {
+    throw new Error("Playlist not found");
+  }
+
+  if (rawPlaylistItems.length === 0) {
+    return {
+      details: playlistDetails,
+      items: [],
+    };
+  }
+  const videoIds = rawPlaylistItems
+    .map((item: any) => item.contentDetails?.videoId)
+    .filter(Boolean);
+  const chunkedVideoIds = [];
+  for (let i = 0; i < videoIds.length; i += 50) {
+    chunkedVideoIds.push(videoIds.slice(i, i + 50));
+  }
+
+  const videoDetailsPromises = chunkedVideoIds.map((ids) =>
+    getVideoDetails(ids)
+  );
+  const videoDetailsResults = await Promise.all(videoDetailsPromises);
+  const videoStatsMap = new Map();
+  videoDetailsResults.forEach((result: any) => {
+    result.items?.forEach((video: any) => {
+      videoStatsMap.set(video.id, {
+        statistics: video.statistics,
+        contentDetails: video.contentDetails,
+        status: video.status,
+      });
+    });
+  });
+
+  const enhancedItems = rawPlaylistItems.map((item: any) => {
+    const videoId = item.contentDetails?.videoId;
+    const statsData = videoStatsMap.get(videoId) || {};
+
+    return {
+      ...item,
+      statistics: statsData.statistics || {},
+      contentDetails: {
+        ...item.contentDetails,
+        ...statsData.contentDetails,
+      },
+    };
+  });
+
+  return {
+    details: playlistDetails,
+    items: enhancedItems,
   };
-  if (pageToken) params.pageToken = pageToken;
-  return fetchFromYouTube<T>("playlistItems", params);
 };

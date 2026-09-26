@@ -3,9 +3,7 @@ import { parseYouTubeUrl } from "../utils/youtube";
 import {
   getChannelDetails,
   getChannelPlaylists,
-  getChannelUploads,
-  getPlaylistDetails,
-  getPlaylistVideos,
+  getEnhancedPlaylistData,
   getVideoDetails,
 } from "../services/youtube";
 import moment from "moment";
@@ -49,22 +47,11 @@ export const AppContextProvider: React.FC<{ children: ReactNode }> = ({
         });
       } else if (type === "playlist") {
         setSelected("playlist");
-
-        const [playlistResult, playlistItemsResult] = await Promise.all([
-          getPlaylistDetails(id),
-          getPlaylistVideos(id),
-        ]);
-        console.log({
-          type: "playlist",
-          details: playlistResult.items[0],
-          items: playlistItemsResult.items || [],
-          nextPageToken: playlistItemsResult.nextPageToken || null,
-        });
+        const enhancedPlaylist = await getEnhancedPlaylistData(id);
         setData({
           type: "playlist",
-          details: playlistResult.items[0],
-          items: playlistItemsResult.items || [],
-          nextPageToken: playlistItemsResult.nextPageToken || null,
+          details: enhancedPlaylist.details,
+          items: enhancedPlaylist.items,
         });
       } else if (type === "channel") {
         setSelected("channel");
@@ -76,28 +63,17 @@ export const AppContextProvider: React.FC<{ children: ReactNode }> = ({
           throw new Error("Channel not found");
         }
 
-        const uploadsPlaylistId =
-          channel.contentDetails?.relatedPlaylists?.uploads;
+        const playlistsData = await getChannelPlaylists(channel.id);
 
-        const [playlistsData, uploadsData] = await Promise.all([
-          getChannelPlaylists(channel.id),
-          uploadsPlaylistId
-            ? getChannelUploads(uploadsPlaylistId)
-            : Promise.resolve({ items: [], nextPageToken: null }),
-        ]);
         const keywordsRaw = channel.brandingSettings?.channel?.keywords || "";
         const channelKeywords = keywordsRaw
           ? keywordsRaw
               .match(/(?:[^\s"]+|"[^"]*")+/g)
               ?.map((k: string) => k.replace(/"/g, "")) || []
           : [];
-
         setData({
           type: "channel",
           details: channel,
-          videos: uploadsData.items || [],
-          videosNextPageToken: uploadsData.nextPageToken || null,
-          uploadsPlaylistId: uploadsPlaylistId || null,
           playlists: playlistsData.items || [],
           totalPlaylists:
             playlistsData.pageInfo?.totalResults ||

@@ -4,9 +4,10 @@ import { PiStarFourFill } from "react-icons/pi";
 import { useAppContext } from "../context/AppContext";
 import StatCard from "./StatCard";
 import moment from "moment";
+import data from "../../structure/channelStructure.json";
 
 const Channel: React.FC = () => {
-  const { handleAnalyze, beautifyBigNumber, data } = useAppContext();
+  const { handleAnalyze, beautifyBigNumber } = useAppContext();
   const [inputValue, setInputValue] = useState<string>("");
 
   return (

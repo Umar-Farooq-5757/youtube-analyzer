@@ -2,9 +2,13 @@ import type React from "react";
 import { useState } from "react";
 import { PiStarFourFill } from "react-icons/pi";
 import { useAppContext } from "../context/AppContext";
+import data from "../../structure/playlistStructure.json";
+import StatCard from "./StatCard";
+import moment from "moment";
+import VideosList from "./VideosList";
 
 const Playlist: React.FC = () => {
-  const { handleAnalyze, data } = useAppContext();
+  const { handleAnalyze, beautifyBigNumber } = useAppContext();
   const [inputValue, setInputValue] = useState<string>("");
   return (
     <div className="w-full">
@@ -46,9 +50,65 @@ const Playlist: React.FC = () => {
             <p>Enter a YouTube Playlist URL to start analyzing.</p>
           </div>
         )}
+        {data && (
+          <div className="my-2">
+            <p className="text-lg font-semibold">
+              {data.details.snippet.title}
+            </p>
+            {/* Stat cards */}
+            <div className="my-4 grid grid-cols-3 gap-3">
+              <StatCard
+                title={"Total Videos"}
+                value={beautifyBigNumber(
+                  data.details.contentDetails.itemCount,
+                  "compact",
+                )}
+                tooltipValue={String(data.details.contentDetails.itemCount)}
+              />
+              <StatCard
+                title={"Published on"}
+                value={moment(data.details.snippet.publishedAt).format(
+                  "DD MM YYYY",
+                )}
+                extra={moment(data.details.snippet.publishedAt).fromNow()}
+              />
+              <div className="border-2 border-[#29272B] rounded-md py-5 px-5 space-y-2 w-full shadow-[3px_3px_0px_0px_#29272B]">
+                <p className="text-[#a89bbd] uppercase font-semibold text-sm">
+                  Channel
+                </p>
+                <a
+                  href={`https://www.youtube.com/channel/${data.details.snippet.channelId}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[15px] font-semibold text-blue-500 underline cursor-pointer">
+                  {data.details.snippet.channelTitle}
+                </a>
+              </div>
+            </div>
+            <div className="border-2 border-[#29272B] rounded-md px-3 py-5 overflow-hidden shadow-[3px_3px_0px_0px_#29272B]">
+              <iframe
+                src={`http://www.youtube.com/embed/videoseries?list=${data.details.id}`}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                title="YouTube video player"
+                allowFullScreen
+                className="w-full h-120 rounded-md"
+              />
+            </div>
+            {/* Videos List */}
+            <div className="border-2 border-[#29272B] rounded-md py-5 px-5 shadow-[3px_3px_0px_0px_#29272B] my-4">
+              <p className="text-[#a89bbd] uppercase font-semibold text-sm">
+                All Videos
+              </p>
+              <div className="h-0.5 w-full bg-[#29282b] my-3"></div>
+              <VideosList list={data.items}/>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
 };
 
 export default Playlist;
+
+// https://youtube.com/playlist?list=PLjMdlvowxr_0IZ13u1fEZM7XEycYvIFTe&si=GprkhkI1EsG9-AE-
