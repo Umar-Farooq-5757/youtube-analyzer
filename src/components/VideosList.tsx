@@ -87,12 +87,12 @@ const VideosList: React.FC<VideosListProps> = ({ list }) => {
   };
 
   return (
-    <div className="border-2 border-[#29272B] rounded-md py-5 px-5 shadow-[3px_3px_0px_0px_#29272B] my-4">
-      <div className="flex items-center justify-between pr-10">
+    <div className="border-2 border-[#29272B] rounded-md py-5 px-3 lg:px-5 shadow-[3px_3px_0px_0px_#29272B] my-4">
+      <div className="flex items-center justify-between pr-10 flex-wrap">
         <p className="text-[#a89bbd] uppercase font-semibold text-sm">
           All Videos
         </p>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 flex-wrap">
           <p className="text-[#a89bbd] uppercase font-semibold text-sm">
             Sort by:
           </p>

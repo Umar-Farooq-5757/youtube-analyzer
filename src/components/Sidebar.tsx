@@ -27,7 +27,7 @@ const Sidebar: React.FC = () => {
               ) : (
                 <BsDiamond className="size-2" />
               )}
-              <span className="capitalize">{item}</span>
+              <span>{item}</span>
             </div>
           );
         })} 

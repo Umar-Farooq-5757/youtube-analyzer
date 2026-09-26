@@ -38,7 +38,7 @@ export const AppContextProvider: React.FC<{ children: ReactNode }> = ({
   const [videoData, setVideoData] = useState<any>(null);
   const [channelData, setChannelData] = useState<any>(null);
   const [playlistData, setPlaylistData] = useState<any>(null);
-  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [isLoading, setIsLoading] = useState<boolean>(true);
 
   const handleAnalyze = async (youtubeUrl: string) => {
     const { type, id } = parseYouTubeUrl(youtubeUrl);

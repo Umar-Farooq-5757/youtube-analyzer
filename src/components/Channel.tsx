@@ -5,17 +5,16 @@ import { useAppContext } from "../context/AppContext";
 import StatCard from "./StatCard";
 import moment from "moment";
 import { TbLoader2 } from "react-icons/tb";
-// import channelData from '../../structure/channelStructure.json'
 
 const Channel: React.FC = () => {
-  const { handleAnalyze, beautifyBigNumber, isLoading,channelData } =
+  const { handleAnalyze, beautifyBigNumber, isLoading, channelData } =
     useAppContext();
   const [inputValue, setInputValue] = useState<string>("");
 
   return (
     <div className="w-full">
       <h1 className="text-[#F7E9A8] text-3xl font-bold text-shadow">channel</h1>
-      <div className="bg-[#13111A] rounded-sm border-2 border-[#393642] my-7 py-7 px-6 w-full space-y-3">
+      <div className="bg-[#13111A] rounded-sm border-2 border-[#393642] my-7 py-7 px-3 lg:px-6 w-full space-y-3">
         <div className="flex items-center gap-2">
           <PiStarFourFill className="text-[#a89bbd] size-3" />
           <p className="uppercase text-[#a89bbd] font-semibold font-sans text-sm">
@@ -37,7 +36,7 @@ const Channel: React.FC = () => {
           </button>
         </div>
       </div>
-      <div className="bg-[#13111A] rounded-sm border-2 border-[#393642] my-7 py-7 px-6 w-full min-h-[50vh] flex flex-col">
+      <div className="bg-[#13111A] rounded-sm border-2 border-[#393642] my-7 py-7 px-3 lg:px-6 w-full min-h-[50vh] flex flex-col">
         <div className="flex items-center gap-2">
           <PiStarFourFill className="text-[#a89bbd] size-3" />
           <p className="uppercase text-[#a89bbd] font-semibold font-sans text-sm">
