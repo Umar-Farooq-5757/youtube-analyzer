@@ -16,7 +16,7 @@ const VideosList: React.FC<VideosListProps> = ({ list }) => {
   const [value, setValue] = useState<
     "views" | "likes" | "" | "duration" | "title" | "publishedAt" | "position"
   >("position");
-  const [order, setOrder] = useState<"ascending" | "descending">("ascending");
+  const [order, setOrder] = useState<"ascending" | "descending">("descending");
 
   const sortVideos = (
     criteria: string,
