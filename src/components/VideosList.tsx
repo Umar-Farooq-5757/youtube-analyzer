@@ -10,7 +10,8 @@ interface VideosListProps {
 }
 
 const VideosList: React.FC<VideosListProps> = ({ list }) => {
-  const { beautifyBigNumber, getDurationForDifferentSpeeds } = useAppContext();
+  const { beautifyBigNumber, getDurationForDifferentSpeeds, handleAnalyze } =
+    useAppContext();
   const [videosData, setVideosData] = useState(list);
   const [value, setValue] = useState<
     "views" | "likes" | "" | "duration" | "title" | "publishedAt" | "position"
@@ -128,7 +129,6 @@ const VideosList: React.FC<VideosListProps> = ({ list }) => {
             item.snippet?.thumbnails?.high?.url ||
             item.snippet?.thumbnails?.standard?.url ||
             item.snippet?.thumbnails?.maxres?.url;
-
           return (
             <div
               className="bg-[#101014] flex items-center justify-between gap-10 border-2 border-[#29272B] rounded-md px-6 py-3 shadow-[3px_3px_0px_0px_#29272B]"
@@ -157,20 +157,24 @@ const VideosList: React.FC<VideosListProps> = ({ list }) => {
               </div>
               <div className="flex items-center gap-10">
                 <div className="space-y-1">
-                <p title="views" className="flex items-center gap-2">
-                  <FaRegEye />
-                  {beautifyBigNumber(item.statistics?.viewCount, "compact")}
-                </p>
-                <p title="likes" className="flex items-center gap-2">
-                  <BiLike />
-                  {beautifyBigNumber(item.statistics?.likeCount, "compact")}
-                </p>
-              </div>
-              <div>
-                <p className="text-[15px] font-semibold text-blue-500 underline cursor-pointer">
+                  <p title="views" className="flex items-center gap-2">
+                    <FaRegEye />
+                    {beautifyBigNumber(item.statistics?.viewCount, "compact")}
+                  </p>
+                  <p title="likes" className="flex items-center gap-2">
+                    <BiLike />
+                    {beautifyBigNumber(item.statistics?.likeCount, "compact")}
+                  </p>
+                </div>
+                <p
+                  onClick={() =>{
+                    handleAnalyze(
+                      `https://youtube.com/watch?v=${item.contentDetails.videoId}`,
+                    )
+                  }}
+                  className="text-[15px] font-semibold text-blue-500 underline cursor-pointer">
                   Analyze
                 </p>
-              </div>
               </div>
             </div>
           );
@@ -181,3 +185,5 @@ const VideosList: React.FC<VideosListProps> = ({ list }) => {
 };
 
 export default VideosList;
+
+// i have a video id. how to create a valid youtube url from this to reach this video: bRShyZM7qH4

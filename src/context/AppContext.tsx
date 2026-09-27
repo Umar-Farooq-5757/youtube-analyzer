@@ -37,11 +37,11 @@ export const AppContextProvider: React.FC<{ children: ReactNode }> = ({
   children,
 }) => {
   const [developer] = useState("umarfarooq");
-  const [selected, setSelected] = useState<string>("playlist");
+  const [selected, setSelected] = useState<string>("video");
   const [videoData, setVideoData] = useState<any>(null);
   const [channelData, setChannelData] = useState<any>(null);
   const [playlistData, setPlaylistData] = useState<any>(null);
-  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [isLoading, setIsLoading] = useState<boolean>(true);
   const [error, setError] = useState<{ message: string }>({ message: "" });
 
   const handleAnalyze = async (youtubeUrl: string) => {

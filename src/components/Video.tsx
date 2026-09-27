@@ -59,7 +59,7 @@ const Video: React.FC = () => {
         {!videoData && (
           <div className="flex-1 flex items-center justify-center gap-2 flex-col">
             {isLoading ? (
-              <div className="opacity-40">
+              <div className="opacity-40 flex flex-col items-center gap-3">
                 <TbLoader2 className="animate-spin size-8" />
                 <p>loading...</p>
               </div>
@@ -68,7 +68,7 @@ const Video: React.FC = () => {
                 {error.message}
               </div>
             ) : (
-              <div className="opacity-40">
+              <div className="opacity-40 flex flex-col items-center gap-3">
                 <p>No Data Available.</p>
                 <p>Enter a YouTube Video URL to start analyzing.</p>
               </div>
@@ -81,7 +81,7 @@ const Video: React.FC = () => {
               {videoData.details.snippet.title}
             </p>
             {/* Stat cards */}
-            <div className="my-4 grid grid-cols-3 gap-3">
+            <div className="my-4 grid grid-cols-1 lg:grid-cols-3 gap-3">
               <StatCard
                 title={"Views"}
                 value={beautifyBigNumber(
@@ -117,7 +117,7 @@ const Video: React.FC = () => {
               />
             </div>
             {/* Stat cards */}
-            <div className="my-4 grid grid-cols-3 gap-3">
+            <div className="my-4 grid grid-cols-1 lg:grid-cols-3 gap-3">
               <StatCard
                 title={"Duration"}
                 value={getDurationForDifferentSpeeds(
@@ -132,7 +132,7 @@ const Video: React.FC = () => {
                 )}
                 extra={moment(videoData.details.snippet.publishedAt).fromNow()}
               />
-              <div className="border-2 border-[#29272B] rounded-md py-5 px-5 space-y-2 w-full shadow-[3px_3px_0px_0px_#29272B]">
+              <div className="border-2 border-[#29272B] flex flex-col justify-between rounded-md py-5 px-5 w-full shadow-[3px_3px_0px_0px_#29272B]">
                 <p className="text-[#a89bbd] uppercase font-semibold text-sm">
                   Channel
                 </p>
@@ -143,6 +143,15 @@ const Video: React.FC = () => {
                   className="text-[15px] font-semibold text-blue-500 underline cursor-pointer">
                   {videoData.details.snippet.channelTitle}
                 </a>
+                <p
+                  onClick={() =>
+                    handleAnalyze(
+                      `https://youtube.com/channel/${videoData.details.snippet.channelId}`,
+                    )
+                  }
+                  className="font-semibold text-sm mt-2 text-blue-500 underline cursor-pointer">
+                  Analyze
+                </p>
               </div>
             </div>
             {/* Video Durations at Different Speeds */}
