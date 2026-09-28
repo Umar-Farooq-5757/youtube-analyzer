@@ -1,6 +1,7 @@
 import type React from "react";
 import { BsDiamond, BsDiamondFill } from "react-icons/bs";
 import { useAppContext } from "../context/AppContext";
+import BackgroundAudioToggle from "./BackgroundAudioToggle";
 
 const Sidebar: React.FC = () => {
   const { selected, setSelected } = useAppContext();
@@ -31,6 +32,9 @@ const Sidebar: React.FC = () => {
             </div>
           );
         })} 
+      </div>
+      <div>
+       <BackgroundAudioToggle/>
       </div>
     </div>
   );

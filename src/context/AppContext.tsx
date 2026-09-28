@@ -29,6 +29,8 @@ interface AppContextType {
   error: {
     message: string;
   };
+  isSpookyMode: boolean;
+  setIsSpookyMode: (value: boolean) => void;
 }
 
 const AppContext = createContext<AppContextType | undefined>(undefined);
@@ -43,6 +45,7 @@ export const AppContextProvider: React.FC<{ children: ReactNode }> = ({
   const [playlistData, setPlaylistData] = useState<any>(null);
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [error, setError] = useState<{ message: string }>({ message: "" });
+  const [isSpookyMode, setIsSpookyMode] = useState<boolean>(false);
 
   const handleAnalyze = async (youtubeUrl: string) => {
     const { type, id } = parseYouTubeUrl(youtubeUrl);
@@ -154,6 +157,8 @@ export const AppContextProvider: React.FC<{ children: ReactNode }> = ({
         isLoading,
         setIsLoading,
         error,
+        isSpookyMode,
+        setIsSpookyMode,
       }}>
       {children}
     </AppContext.Provider>

@@ -7,10 +7,12 @@ import Video from "./components/Video";
 import { useAppContext } from "./context/AppContext";
 
 const App = () => {
-  const { selected } = useAppContext();
+  const { selected, isSpookyMode } = useAppContext();
 
   return (
-    <main className="h-screen bg-[#101014] text-white flex overflow-hidden">
+    <main
+      style={{ fontFamily: isSpookyMode ? "Creepster" : "" }}
+      className="h-screen bg-[#101014] text-white flex overflow-hidden">
       <div className="bg-[#13111A] w-52 border-r-2 border-[#29272B] py-5 px-4 h-full overflow-y-auto hidden md:block">
         <Sidebar />
       </div>
