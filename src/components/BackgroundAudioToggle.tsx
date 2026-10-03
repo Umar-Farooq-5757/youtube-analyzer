@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { useAppContext } from "../context/AppContext";
+import SpookyOverlay from "./SpookyOverlay";
 
 const BackgroundAudioToggle = () => {
   const { isSpookyMode, setIsSpookyMode } = useAppContext();
@@ -38,11 +39,9 @@ const BackgroundAudioToggle = () => {
         title="Enable creaking door sound and creepy text"
         className="relative inline-flex items-center cursor-pointer">
         <input type="checkbox" checked={isSpookyMode} onChange={handleToggle} />
-        <span
-          className="ml-3 text-sm font-medium">
-          Enable spooky mode
-        </span>
+        <span className="ml-3 text-sm font-medium">Enable spooky mode</span>
       </label>
+      <SpookyOverlay />
     </div>
   );
 };

@@ -18,7 +18,7 @@ YouTube Analyzer is a webapp where you can paste the url of any YouTube video, c
 
 ## Layout:
 
-### 1. Video
+### 1. Video Page
   * Title
   * Statistics
     * Views
@@ -31,7 +31,7 @@ YouTube Analyzer is a webapp where you can paste the url of any YouTube video, c
   * Thumbmail
   * Description
   * Tags
-### 2. Channel
+### 2. Channel Page
   * Picture
   * Title
   * Description
@@ -43,7 +43,7 @@ YouTube Analyzer is a webapp where you can paste the url of any YouTube video, c
     * Total playlists
     * Country
   * Listed playlists
-### 3. Playlist
+### 3. Playlist Page
   * Total Videos
   * Published on
   * List of all videos
